@@ -11,7 +11,8 @@ export function TechPills({ tags, className }: TechPillsProps) {
       {tags.map((tag) => (
         <span
           key={tag}
-          className="bg-elevated border border-border text-t2 font-[family-name:var(--font-mono)] text-xs px-3 py-1 rounded-full"
+          className="bg-elevated border border-border text-t2 font-[family-name:var(--font-mono)] text-xs rounded-full"
+          style={{ padding: "5px 9px" }}
         >
           {tag}
         </span>

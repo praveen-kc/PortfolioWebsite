@@ -34,7 +34,7 @@ function EmailLink() {
 
 export function Footer() {
   return (
-    <footer className="border-t border-border bg-surface">
+    <footer className="border-t border-border bg-surface" style={{ paddingTop: "48px" }}>
       <div className="container-page py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8">
           <div className="space-y-4">
@@ -92,6 +92,7 @@ export function Footer() {
                 size="sm"
                 className="w-fit mt-2"
                 asChild
+                style={{ paddingLeft: "16px", paddingRight: "16px" }}
               >
                 <NextLink href="/docs/PraveenKC-CV.pdf" className="inline-flex items-center" onClick={trackResumeDownload}>
                   <Download className="w-4 h-4 mr-2" />

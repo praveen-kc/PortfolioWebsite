@@ -25,18 +25,18 @@ const CAREER_STEPS = [
 
 export function CareerTeaser() {
   return (
-    <section className="container-page py-16 md:py-24">
+    <section className="container-page py-16 md:py-24" style={{ marginTop: "30px" }}>
       <motion.div
         initial={{ opacity: 0, y: 24 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.6 }}
-        className="mb-12"
+        className="mb-8"
       >
-        <SectionLabel className="mb-4">Experience</SectionLabel>
+        <SectionLabel className="mb-2">Experience</SectionLabel>
       </motion.div>
 
-      <div className="relative">
+      <div className="relative" style={{ marginTop: "24px" }}>
         <div className="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-4 md:gap-8">
           {CAREER_STEPS.map((step, index) => (
             <motion.div

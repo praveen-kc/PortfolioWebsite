@@ -46,18 +46,18 @@ export function FeaturedProjects() {
   const prefersReducedMotion = useReducedMotion();
 
   return (
-    <section className="container-page py-16 md:py-24">
+    <section className="container-page py-16 md:py-24" style={{ marginTop: "30px" }}>
       <motion.div
         initial={{ opacity: 0, y: 24 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: prefersReducedMotion ? 0 : 0.6 }}
-        className="mb-12"
+        className="mb-8"
       >
-        <SectionLabel className="mb-4">Featured Projects</SectionLabel>
+        <SectionLabel className="mb-2">Featured Projects</SectionLabel>
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch mb-8" style={{ marginTop: "32px" }}>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch mb-8" style={{ marginTop: "24px" }}>
         {FEATURED_PROJECTS.map((project, index) => (
           <motion.div
             key={project.id}
@@ -111,7 +111,7 @@ export function FeaturedProjects() {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5, delay: 0.3 }}
-        className="mt-8 text-center py-4"
+        className="text-center py-4"
         style={{ marginTop: "40px" }}
       >
         <Link

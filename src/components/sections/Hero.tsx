@@ -41,7 +41,7 @@ export function Hero() {
   }, []);
 
   return (
-    <section className="relative min-h-[100svh] flex flex-col" suppressHydrationWarning>
+    <section className="relative min-h-[100svh] flex flex-col items-center justify-center" suppressHydrationWarning>
       <div
         className="absolute inset-0 opacity-[0.15] pointer-events-none"
         style={{
@@ -70,11 +70,11 @@ export function Hero() {
             <AvailabilityBadge showText />
           </motion.div>
 
-          <h1 className="mb-4 text-center">
-            <span className="font-[family-name:var(--font-display)] font-bold text-t1 tracking-tight text-[clamp(40px,6vw,72px)] leading-[1.1] block">
+          <h1 className="text-center leading-[1.2]">
+            <span className="font-[family-name:var(--font-display)] font-[700] text-t1 tracking-tight text-[clamp(40px,6vw,72px)] block">
               I build the future of
             </span>
-            <span className="inline-block mt-2">
+            <span className="font-[family-name:var(--font-display)] font-[700] tracking-tight text-[clamp(40px,6vw,72px)] block">
               <GradientText>
                 {" immersive XR".split("").map((char, charIndex) => (
                   <motion.span
@@ -91,7 +91,7 @@ export function Hero() {
             </span>
           </h1>
 
-          <div className="h-7 overflow-hidden" style={{ marginBottom: "32px" }}>
+          <div className="h-7 overflow-hidden" style={{ marginTop: "8px" }}>
             <AnimatePresence mode="wait">
               <motion.p
                 key={currentRole}
@@ -110,8 +110,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.8 }}
-            className="text-base md:text-lg text-t2 mx-auto text-center leading-relaxed"
-            style={{ paddingBottom: "24px" }}
+            className="text-base md:text-lg text-t2 mx-auto text-center leading-relaxed mb-0" style={{ marginTop: "16px" }}
           >
             12+ years delivering enterprise VR training simulations, WebGL interactive experiences, and cross-platform XR solutions for aerospace, manufacturing, and retail.
           </motion.p>
@@ -120,13 +119,13 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 1 }}
-            className="flex flex-wrap justify-center gap-8"
-            style={{ paddingTop: "24px" }}
+            className="flex flex-wrap justify-center"
+            style={{ paddingTop: "24px", gap: "16px" }}
           >
-            <Button variant="primary" size="lg" asChild>
+            <Button variant="primary" size="lg" asChild className="whitespace-nowrap" style={{ paddingLeft: "32px", paddingRight: "32px" }}>
               <Link href="/work">View My Work</Link>
             </Button>
-            <Button variant="ghost" size="lg" asChild>
+            <Button variant="ghost" size="lg" asChild style={{ paddingLeft: "32px", paddingRight: "32px" }}>
               <a href="/docs/PraveenKC-CV.pdf" download onClick={trackResumeDownload}>
                 Download Resume
               </a>

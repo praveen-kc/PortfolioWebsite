@@ -29,18 +29,18 @@ const SKILL_DOMAINS = [
 
 export function SkillsSnapshot() {
   return (
-    <section className="container-page py-16 md:py-24">
+    <section className="container-page py-16 md:py-24" style={{ marginTop: "30px" }}>
       <motion.div
         initial={{ opacity: 0, y: 24 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.6 }}
-        className="mb-12"
+        className="mb-8"
       >
-        <SectionLabel className="mb-4">Expertise</SectionLabel>
+        <SectionLabel className="mb-2">Expertise</SectionLabel>
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8" style={{ marginTop: "32px" }}>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8" style={{ marginTop: "24px" }}>
         {SKILL_DOMAINS.map((domain, index) => (
           <motion.div
             key={domain.name}
@@ -51,12 +51,14 @@ export function SkillsSnapshot() {
           >
             <div
               className={cn(
-                "bg-surface border border-border rounded-2xl p-6",
+                "bg-surface border border-border rounded-2xl",
                 "transition-all duration-300",
-                "hover:border-xr-green/50 hover:shadow-[0_0_24px_rgba(0,229,160,0.12)]"
+                "hover:border-xr-green/50 hover:shadow-[0_0_24px_rgba(0,229,160,0.12)]",
+                "h-full flex flex-col"
               )}
+              style={{ padding: "20px 24px" }}
             >
-              <div className="flex items-center gap-3 mb-6">
+              <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 rounded-lg bg-elevated flex items-center justify-center">
                   <domain.icon
                     className={cn(
@@ -71,7 +73,9 @@ export function SkillsSnapshot() {
                   {domain.name}
                 </h3>
               </div>
-              <TechPills tags={domain.skills} />
+              <div style={{ marginTop: "16px" }}>
+                <TechPills tags={domain.skills} />
+              </div>
             </div>
           </motion.div>
         ))}

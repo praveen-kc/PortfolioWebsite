@@ -78,10 +78,13 @@ export function Caption({ children, className }: Heading1Props) {
 export function GradientText({ children, className }: Heading1Props) {
   return (
     <span
-      className={cn(
-        "bg-gradient-to-r from-primary to-xr-green bg-clip-text text-transparent",
-        className
-      )}
+      className={cn(className)}
+      style={{
+        background: "linear-gradient(90deg, #4169E1 0%, #00BFFF 45%, #00CED1 75%, #00E5B0 100%)",
+        WebkitBackgroundClip: "text",
+        WebkitTextFillColor: "transparent",
+        backgroundClip: "text",
+      }}
     >
       {children}
     </span>

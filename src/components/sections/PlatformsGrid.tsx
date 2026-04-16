@@ -19,18 +19,18 @@ const PLATFORMS = [
 
 export function PlatformsGrid() {
   return (
-    <section className="container-page py-16 md:py-24">
+    <section className="container-page py-16 md:py-24" style={{ marginTop: "30px" }}>
       <motion.div
         initial={{ opacity: 0, y: 24 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.6 }}
-        className="mb-12"
+        className="mb-8"
       >
-        <SectionLabel className="mb-4">Shipped On</SectionLabel>
+        <SectionLabel className="mb-2">Shipped On</SectionLabel>
       </motion.div>
 
-      <div className="flex flex-wrap justify-center gap-3 md:gap-4" style={{ marginTop: "32px" }}>
+      <div className="flex flex-wrap justify-center gap-3 md:gap-4" style={{ marginTop: "24px" }}>
         {PLATFORMS.map((platform, index) => (
           <motion.div
             key={platform}
@@ -42,9 +42,9 @@ export function PlatformsGrid() {
             <div
               className={cn(
                 "bg-elevated border border-border rounded-xl",
-                "h-16 min-w-[120px] px-6",
+                "h-10 min-w-[80px] px-3",
                 "flex items-center justify-center",
-                "font-[family-name:var(--font-mono)] text-sm text-t2",
+                "font-[family-name:var(--font-mono)] text-xs text-t2",
                 "transition-all duration-200",
                 "hover:border-primary/30 hover:bg-surface"
               )}
