@@ -1,0 +1,37 @@
+{
+  "title": "Home Designer",
+  "slug": "home-designer",
+  "company": "Personal Project",
+  "category": "Research",
+  "platforms": [
+    "Android"
+  ],
+  "year": 2014,
+  "thumbnail": "/images/projects/home-designer-cover.webp",
+  "images": [],
+  "featured": false,
+  "tags": [
+    "Unity 3D",
+    "Android",
+    "3D Design",
+    "Save/Load",
+    "Mobile"
+  ],
+  "summary": "Interactive 3D interior design prototype with save, load, and share functionality — focusing on user freedom, spatial customization, and intuitive touch-based interaction design.",
+  "impact": "Demonstrated viability of mobile 3D design tools. UX patterns influenced commercial product decisions at partner organizations.",
+  "order": 13,
+  "body": {
+    "raw": "\n## Overview\n\nA self-initiated prototype that allows users to design, customize, and visualize interior layouts in a 3D environment. The app offers intuitive object manipulation, persistent storage, and sharing features for hobbyists or early interior planning stages.\n\n## The Challenge\n\nMobile devices present unique challenges for 3D content creation — limited processing power, constrained input methods, and the need for responsive touch interfaces. The challenge was to create a design experience that felt natural on touchscreens while producing meaningful 3D output.\n\n## Technical Approach\n\nDeveloped touch-optimized input systems for object manipulation in 3D space. Implemented data serialization for design persistence and export capabilities for sharing.\n\n## Key Implementations\n\n- **Real-Time Layout Tools:** Placed, rotated, and scaled objects within a 3D space using touch gestures — pinch to scale, two-finger rotate, drag to position — for accurate visual feedback and arrangement flexibility.\n\n- **Furniture & Object Catalog:** Included a varied asset set: sofas, lights, tables, kitchen units, decor, and appliances with category organization and search functionality.\n\n- **Persistent Save/Load System:** Enabled users to store and reload design states, supporting multiple design variations and the ability to revisit and modify previous iterations.\n\n- **Design Sharing:** Supported exporting design data to enable review, collaboration, or showcasing of designs with others through standard file formats.\n\n- **Touch Interface Optimization:** Adapted traditional mouse-based design paradigms to touch input with gesture recognition and context-aware tool selection.\n\n## Outcome\n\nThe prototype demonstrated that mobile devices could support meaningful 3D design experiences. Several UX patterns and interaction models from this project were adapted for commercial applications, influencing product decisions at partner organizations.\n",
+    "code": "var Component=(()=>{var p=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),v=(t,e)=>{for(var i in e)r(t,i,{get:e[i],enumerable:!0})},s=(t,e,i,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of g(e))!f.call(t,o)&&o!==i&&r(t,o,{get:()=>e[o],enumerable:!(a=u(e,o))||a.enumerable});return t};var y=(t,e,i)=>(i=t!=null?p(m(t)):{},s(e||!t||!t.__esModule?r(i,\"default\",{value:t,enumerable:!0}):i,t)),w=t=>s(r({},\"__esModule\",{value:!0}),t);var d=b((z,c)=>{c.exports=_jsx_runtime});var x={};v(x,{default:()=>h,frontmatter:()=>D});var n=y(d()),D={title:\"Home Designer\",slug:\"home-designer\",company:\"Personal Project\",category:\"Research\",platforms:[\"Android\"],year:2014,thumbnail:\"/images/projects/home-designer-cover.webp\",images:[],featured:!1,order:13,tags:[\"Unity 3D\",\"Android\",\"3D Design\",\"Save/Load\",\"Mobile\"],summary:\"Interactive 3D interior design prototype with save, load, and share functionality \\u2014 focusing on user freedom, spatial customization, and intuitive touch-based interaction design.\",impact:\"Demonstrated viability of mobile 3D design tools. UX patterns influenced commercial product decisions at partner organizations.\"};function l(t){let e={h2:\"h2\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Overview\"}),`\n`,(0,n.jsx)(e.p,{children:\"A self-initiated prototype that allows users to design, customize, and visualize interior layouts in a 3D environment. The app offers intuitive object manipulation, persistent storage, and sharing features for hobbyists or early interior planning stages.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"The Challenge\"}),`\n`,(0,n.jsx)(e.p,{children:\"Mobile devices present unique challenges for 3D content creation \\u2014 limited processing power, constrained input methods, and the need for responsive touch interfaces. The challenge was to create a design experience that felt natural on touchscreens while producing meaningful 3D output.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Technical Approach\"}),`\n`,(0,n.jsx)(e.p,{children:\"Developed touch-optimized input systems for object manipulation in 3D space. Implemented data serialization for design persistence and export capabilities for sharing.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Key Implementations\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Real-Time Layout Tools:\"}),\" Placed, rotated, and scaled objects within a 3D space using touch gestures \\u2014 pinch to scale, two-finger rotate, drag to position \\u2014 for accurate visual feedback and arrangement flexibility.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Furniture & Object Catalog:\"}),\" Included a varied asset set: sofas, lights, tables, kitchen units, decor, and appliances with category organization and search functionality.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Persistent Save/Load System:\"}),\" Enabled users to store and reload design states, supporting multiple design variations and the ability to revisit and modify previous iterations.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Design Sharing:\"}),\" Supported exporting design data to enable review, collaboration, or showcasing of designs with others through standard file formats.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Touch Interface Optimization:\"}),\" Adapted traditional mouse-based design paradigms to touch input with gesture recognition and context-aware tool selection.\"]}),`\n`]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Outcome\"}),`\n`,(0,n.jsx)(e.p,{children:\"The prototype demonstrated that mobile devices could support meaningful 3D design experiences. Several UX patterns and interaction models from this project were adapted for commercial applications, influencing product decisions at partner organizations.\"})]})}function h(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(l,{...t})}):l(t)}return w(x);})();\n;return Component;"
+  },
+  "_id": "projects/home-designer.mdx",
+  "_raw": {
+    "sourceFilePath": "projects/home-designer.mdx",
+    "sourceFileName": "home-designer.mdx",
+    "sourceFileDir": "projects",
+    "contentType": "mdx",
+    "flattenedPath": "projects/home-designer"
+  },
+  "type": "Project",
+  "url": "/work/home-designer"
+}

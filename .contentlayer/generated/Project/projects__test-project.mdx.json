@@ -1,0 +1,32 @@
+{
+  "title": "Test Project",
+  "slug": "test-project",
+  "company": "Test",
+  "category": "Research",
+  "platforms": [
+    "PC"
+  ],
+  "year": 2024,
+  "thumbnail": "/images/projects/placeholder.webp",
+  "images": [],
+  "featured": false,
+  "tags": [
+    "Test"
+  ],
+  "summary": "A test project for debugging MDX compilation issues.",
+  "order": 99,
+  "body": {
+    "raw": "\n## Overview\n\nThis is a test project with simple content.\n\n## Key Features\n\n- Feature one\n- Feature two\n- Feature three\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var r in e)o(t,r,{get:e[r],enumerable:!0})},a=(t,e,r,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of d(e))!j.call(t,s)&&s!==r&&o(t,s,{get:()=>e[s],enumerable:!(i=p(e,s))||i.enumerable});return t};var _=(t,e,r)=>(r=t!=null?m(g(t)):{},a(e||!t||!t.__esModule?o(r,\"default\",{value:t,enumerable:!0}):r,t)),y=t=>a(o({},\"__esModule\",{value:!0}),t);var l=f((T,c)=>{c.exports=_jsx_runtime});var w={};x(w,{default:()=>h,frontmatter:()=>F});var n=_(l()),F={title:\"Test Project\",slug:\"test-project\",company:\"Test\",category:\"Research\",platforms:[\"PC\"],year:2024,thumbnail:\"/images/projects/placeholder.webp\",images:[],featured:!1,order:99,tags:[\"Test\"],summary:\"A test project for debugging MDX compilation issues.\"};function u(t){let e={h2:\"h2\",li:\"li\",p:\"p\",ul:\"ul\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Overview\"}),`\n`,(0,n.jsx)(e.p,{children:\"This is a test project with simple content.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Key Features\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"Feature one\"}),`\n`,(0,n.jsx)(e.li,{children:\"Feature two\"}),`\n`,(0,n.jsx)(e.li,{children:\"Feature three\"}),`\n`]})]})}function h(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(u,{...t})}):u(t)}return y(w);})();\n;return Component;"
+  },
+  "_id": "projects/test-project.mdx",
+  "_raw": {
+    "sourceFilePath": "projects/test-project.mdx",
+    "sourceFileName": "test-project.mdx",
+    "sourceFileDir": "projects",
+    "contentType": "mdx",
+    "flattenedPath": "projects/test-project"
+  },
+  "type": "Project",
+  "url": "/work/test-project"
+}

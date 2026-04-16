@@ -1,0 +1,43 @@
+{
+  "title": "Blister Packing VR",
+  "slug": "blister-packing-vr",
+  "company": "ThinkHi",
+  "category": "VR",
+  "platforms": [
+    "PC VR",
+    "Oculus Rift"
+  ],
+  "year": 2016,
+  "thumbnail": "/images/projects/blister-packing-cover.webp",
+  "images": [
+    "/images/projects/blister-1.webp",
+    "/images/projects/blister-2.webp",
+    "/images/projects/blister-3.webp",
+    "/images/projects/blister-4.webp"
+  ],
+  "featured": false,
+  "tags": [
+    "Unity 3D",
+    "VR",
+    "Oculus Rift",
+    "Machine Simulation",
+    "Training"
+  ],
+  "summary": "Detailed VR simulation of a blister packing machine — enabling operators to practice material feeding, sealing, and cutting workflows without safety risks or machine downtime.",
+  "impact": "Reduced new operator training time by 60%. Enabled training without production interruptions, saving estimated €50,000 annually in reduced downtime.",
+  "order": 11,
+  "body": {
+    "raw": "\n## Overview\n\nDeveloped a detailed VR simulation of a blister packing machine, enabling users to interact with and learn machine workflows such as material feeding, sealing, and cutting. The experience helps operators practice without safety risks or machine downtime, accelerating skill acquisition and confidence.\n\n## The Challenge\n\nPharmaceutical packaging training requires hands-on experience with real machinery, but real machines present safety hazards and production downtime. New operators need extensive practice before working with actual equipment. The challenge was to create a simulation that felt authentic enough to transfer skills to real-world machine operation.\n\n## Technical Approach\n\nDesigned full interaction logic for all machine components with realistic physics responses. Implemented VR hand controller integration for intuitive operation of levers, buttons, and adjustment controls using natural hand movements.\n\n## Key Implementations\n\n- **Team Leadership:** Oversaw a compact development team, managed delivery schedules, and ensured code quality and testing cycles met pharmaceutical industry compliance requirements.\n\n- **Machine Functionality Simulation:** Designed full interaction logic for machine parts, simulating all stages of the packing process from material feeding through sealing, cutting, and output.\n\n- **VR Hand Controller Integration:** Implemented intuitive VR interactions for operating levers, buttons, and adjustments via Oculus Touch controllers, with haptic feedback for key operations.\n\n- **Reactive System Behavior:** Created system logic that responds realistically to user actions — triggering faults like material jams and configuration errors that require troubleshooting to reflect real-world conditions.\n\n- **Visual Fidelity & UX:** Balanced high-performance 3D visuals with clear user feedback and safety instructions, ensuring immersive yet practical training experiences aligned with actual operating procedures.\n\n## Outcome\n\nThe simulation significantly accelerated new operator onboarding while eliminating risks associated with training on real equipment. Production facilities reported reduced downtime as training could occur independently of machine availability.\n",
+    "code": "var Component=(()=>{var u=Object.create;var r=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var w=(i,e)=>()=>(e||i((e={exports:{}}).exports,e),e.exports),y=(i,e)=>{for(var t in e)r(i,t,{get:e[t],enumerable:!0})},l=(i,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!f.call(i,a)&&a!==t&&r(i,a,{get:()=>e[a],enumerable:!(o=m(e,a))||o.enumerable});return i};var b=(i,e,t)=>(t=i!=null?u(g(i)):{},l(e||!i||!i.__esModule?r(t,\"default\",{value:i,enumerable:!0}):t,i)),v=i=>l(r({},\"__esModule\",{value:!0}),i);var c=w((R,s)=>{s.exports=_jsx_runtime});var j={};y(j,{default:()=>h,frontmatter:()=>k});var n=b(c()),k={title:\"Blister Packing VR\",slug:\"blister-packing-vr\",company:\"ThinkHi\",category:\"VR\",platforms:[\"PC VR\",\"Oculus Rift\"],year:2016,thumbnail:\"/images/projects/blister-packing-cover.webp\",images:[\"/images/projects/blister-1.webp\",\"/images/projects/blister-2.webp\",\"/images/projects/blister-3.webp\",\"/images/projects/blister-4.webp\"],featured:!1,order:11,tags:[\"Unity 3D\",\"VR\",\"Oculus Rift\",\"Machine Simulation\",\"Training\"],summary:\"Detailed VR simulation of a blister packing machine \\u2014 enabling operators to practice material feeding, sealing, and cutting workflows without safety risks or machine downtime.\",impact:\"Reduced new operator training time by 60%. Enabled training without production interruptions, saving estimated \\u20AC50,000 annually in reduced downtime.\"};function d(i){let e={h2:\"h2\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...i.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Overview\"}),`\n`,(0,n.jsx)(e.p,{children:\"Developed a detailed VR simulation of a blister packing machine, enabling users to interact with and learn machine workflows such as material feeding, sealing, and cutting. The experience helps operators practice without safety risks or machine downtime, accelerating skill acquisition and confidence.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"The Challenge\"}),`\n`,(0,n.jsx)(e.p,{children:\"Pharmaceutical packaging training requires hands-on experience with real machinery, but real machines present safety hazards and production downtime. New operators need extensive practice before working with actual equipment. The challenge was to create a simulation that felt authentic enough to transfer skills to real-world machine operation.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Technical Approach\"}),`\n`,(0,n.jsx)(e.p,{children:\"Designed full interaction logic for all machine components with realistic physics responses. Implemented VR hand controller integration for intuitive operation of levers, buttons, and adjustment controls using natural hand movements.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Key Implementations\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Team Leadership:\"}),\" Oversaw a compact development team, managed delivery schedules, and ensured code quality and testing cycles met pharmaceutical industry compliance requirements.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Machine Functionality Simulation:\"}),\" Designed full interaction logic for machine parts, simulating all stages of the packing process from material feeding through sealing, cutting, and output.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"VR Hand Controller Integration:\"}),\" Implemented intuitive VR interactions for operating levers, buttons, and adjustments via Oculus Touch controllers, with haptic feedback for key operations.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Reactive System Behavior:\"}),\" Created system logic that responds realistically to user actions \\u2014 triggering faults like material jams and configuration errors that require troubleshooting to reflect real-world conditions.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Visual Fidelity & UX:\"}),\" Balanced high-performance 3D visuals with clear user feedback and safety instructions, ensuring immersive yet practical training experiences aligned with actual operating procedures.\"]}),`\n`]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Outcome\"}),`\n`,(0,n.jsx)(e.p,{children:\"The simulation significantly accelerated new operator onboarding while eliminating risks associated with training on real equipment. Production facilities reported reduced downtime as training could occur independently of machine availability.\"})]})}function h(i={}){let{wrapper:e}=i.components||{};return e?(0,n.jsx)(e,{...i,children:(0,n.jsx)(d,{...i})}):d(i)}return v(j);})();\n;return Component;"
+  },
+  "_id": "projects/blister-packing-vr.mdx",
+  "_raw": {
+    "sourceFilePath": "projects/blister-packing-vr.mdx",
+    "sourceFileName": "blister-packing-vr.mdx",
+    "sourceFileDir": "projects",
+    "contentType": "mdx",
+    "flattenedPath": "projects/blister-packing-vr"
+  },
+  "type": "Project",
+  "url": "/work/blister-packing-vr"
+}

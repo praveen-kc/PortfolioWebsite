@@ -1,0 +1,844 @@
+{
+  "cacheItemsMap": {
+    "projects/beyond-guns.mdx": {
+      "document": {
+        "title": "Beyond Guns",
+        "slug": "beyond-guns",
+        "company": "Master's Thesis Project",
+        "category": "Research",
+        "platforms": [
+          "PC",
+          "Xbox 360"
+        ],
+        "year": 2011,
+        "thumbnail": "/images/projects/beyond-guns-cover.webp",
+        "images": [],
+        "featured": false,
+        "tags": [
+          "UDK",
+          "Research",
+          "Immersion Study",
+          "FPS",
+          "TPS",
+          "User Testing"
+        ],
+        "summary": "Comparative study of immersion in first-person versus third-person shooter games — evaluating how camera perspective influences user experience through gameplay factors.",
+        "impact": "Thesis received distinction. Research methodology adopted for subsequent UX studies in the university's game design program.",
+        "order": 17,
+        "body": {
+          "raw": "\n## Overview\n\nBeyond Guns was developed as part of a master's thesis, focused on evaluating and comparing the immersive qualities of First-Person and Third-Person perspectives in shooter games. The research explored how camera perspective influences user experience through gameplay factors such as control fidelity, narrative engagement, and physical discomfort.\n\n## The Challenge\n\nUnderstanding immersion in games requires controlled experimentation that isolates specific design variables while maintaining engaging experiences. The challenge was to create two equivalent gameplay experiences that differed only in camera perspective, enabling meaningful comparative analysis.\n\n## Technical Approach\n\nBuilt parallel gameplay prototypes maintaining identical mechanics to isolate perspective as the only variable. Conducted structured user testing sessions with quantitative and qualitative data collection.\n\n## Key Implementations\n\n- **Immersion-Focused Gameplay Design:** Built two parallel gameplay prototypes — one in first-person, the other in third-person — while maintaining identical mechanics to isolate perspective as the only variable affecting immersion.\n\n- **Comparative Analysis Metrics:** Analyzed player responses across key dimensions: camera control, weapon feedback, environmental awareness, and character connection, developing validated survey instruments.\n\n- **Motion Sickness Observation:** Evaluated physical discomfort and disorientation tendencies in FPS mode versus TPS, based on structured user testing and observation protocols.\n\n- **Data Collection & Reporting:** Conducted comprehensive user testing sessions and recorded subjective and objective feedback to assess player preference and immersion factors across demographic groups.\n\n- **Literature Review & Framework:** Established theoretical grounding through review of existing immersion research, adapting established frameworks for the specific context of camera perspective comparison.\n\n## Outcome\n\nThe thesis received distinction from the examination committee. The research methodology and survey instruments developed were subsequently adopted for use in other UX studies within the game design program, contributing to the program's empirical research capabilities.\n",
+          "code": "var Component=(()=>{var p=Object.create;var t=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var f=(i,e)=>()=>(e||i((e={exports:{}}).exports,e),e.exports),y=(i,e)=>{for(var r in e)t(i,r,{get:e[r],enumerable:!0})},o=(i,e,r,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of u(e))!v.call(i,s)&&s!==r&&t(i,s,{get:()=>e[s],enumerable:!(a=m(e,s))||a.enumerable});return i};var b=(i,e,r)=>(r=i!=null?p(g(i)):{},o(e||!i||!i.__esModule?t(r,\"default\",{value:i,enumerable:!0}):r,i)),w=i=>o(t({},\"__esModule\",{value:!0}),i);var l=f((C,c)=>{c.exports=_jsx_runtime});var T={};y(T,{default:()=>h,frontmatter:()=>x});var n=b(l()),x={title:\"Beyond Guns\",slug:\"beyond-guns\",company:\"Master's Thesis Project\",category:\"Research\",platforms:[\"PC\",\"Xbox 360\"],year:2011,thumbnail:\"/images/projects/beyond-guns-cover.webp\",images:[],featured:!1,order:17,tags:[\"UDK\",\"Research\",\"Immersion Study\",\"FPS\",\"TPS\",\"User Testing\"],summary:\"Comparative study of immersion in first-person versus third-person shooter games \\u2014 evaluating how camera perspective influences user experience through gameplay factors.\",impact:\"Thesis received distinction. Research methodology adopted for subsequent UX studies in the university's game design program.\"};function d(i){let e={h2:\"h2\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...i.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Overview\"}),`\n`,(0,n.jsx)(e.p,{children:\"Beyond Guns was developed as part of a master's thesis, focused on evaluating and comparing the immersive qualities of First-Person and Third-Person perspectives in shooter games. The research explored how camera perspective influences user experience through gameplay factors such as control fidelity, narrative engagement, and physical discomfort.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"The Challenge\"}),`\n`,(0,n.jsx)(e.p,{children:\"Understanding immersion in games requires controlled experimentation that isolates specific design variables while maintaining engaging experiences. The challenge was to create two equivalent gameplay experiences that differed only in camera perspective, enabling meaningful comparative analysis.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Technical Approach\"}),`\n`,(0,n.jsx)(e.p,{children:\"Built parallel gameplay prototypes maintaining identical mechanics to isolate perspective as the only variable. Conducted structured user testing sessions with quantitative and qualitative data collection.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Key Implementations\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Immersion-Focused Gameplay Design:\"}),\" Built two parallel gameplay prototypes \\u2014 one in first-person, the other in third-person \\u2014 while maintaining identical mechanics to isolate perspective as the only variable affecting immersion.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Comparative Analysis Metrics:\"}),\" Analyzed player responses across key dimensions: camera control, weapon feedback, environmental awareness, and character connection, developing validated survey instruments.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Motion Sickness Observation:\"}),\" Evaluated physical discomfort and disorientation tendencies in FPS mode versus TPS, based on structured user testing and observation protocols.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Data Collection & Reporting:\"}),\" Conducted comprehensive user testing sessions and recorded subjective and objective feedback to assess player preference and immersion factors across demographic groups.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Literature Review & Framework:\"}),\" Established theoretical grounding through review of existing immersion research, adapting established frameworks for the specific context of camera perspective comparison.\"]}),`\n`]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Outcome\"}),`\n`,(0,n.jsx)(e.p,{children:\"The thesis received distinction from the examination committee. The research methodology and survey instruments developed were subsequently adopted for use in other UX studies within the game design program, contributing to the program's empirical research capabilities.\"})]})}function h(i={}){let{wrapper:e}=i.components||{};return e?(0,n.jsx)(e,{...i,children:(0,n.jsx)(d,{...i})}):d(i)}return w(T);})();\n;return Component;"
+        },
+        "_id": "projects/beyond-guns.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/beyond-guns.mdx",
+          "sourceFileName": "beyond-guns.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/beyond-guns"
+        },
+        "type": "Project",
+        "url": "/work/beyond-guns"
+      },
+      "documentHash": "1776252937114",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/blister-packing-vr.mdx": {
+      "document": {
+        "title": "Blister Packing VR",
+        "slug": "blister-packing-vr",
+        "company": "ThinkHi",
+        "category": "VR",
+        "platforms": [
+          "PC VR",
+          "Oculus Rift"
+        ],
+        "year": 2016,
+        "thumbnail": "/images/projects/blister-packing-cover.webp",
+        "images": [
+          "/images/projects/blister-1.webp",
+          "/images/projects/blister-2.webp",
+          "/images/projects/blister-3.webp",
+          "/images/projects/blister-4.webp"
+        ],
+        "featured": false,
+        "tags": [
+          "Unity 3D",
+          "VR",
+          "Oculus Rift",
+          "Machine Simulation",
+          "Training"
+        ],
+        "summary": "Detailed VR simulation of a blister packing machine — enabling operators to practice material feeding, sealing, and cutting workflows without safety risks or machine downtime.",
+        "impact": "Reduced new operator training time by 60%. Enabled training without production interruptions, saving estimated €50,000 annually in reduced downtime.",
+        "order": 11,
+        "body": {
+          "raw": "\n## Overview\n\nDeveloped a detailed VR simulation of a blister packing machine, enabling users to interact with and learn machine workflows such as material feeding, sealing, and cutting. The experience helps operators practice without safety risks or machine downtime, accelerating skill acquisition and confidence.\n\n## The Challenge\n\nPharmaceutical packaging training requires hands-on experience with real machinery, but real machines present safety hazards and production downtime. New operators need extensive practice before working with actual equipment. The challenge was to create a simulation that felt authentic enough to transfer skills to real-world machine operation.\n\n## Technical Approach\n\nDesigned full interaction logic for all machine components with realistic physics responses. Implemented VR hand controller integration for intuitive operation of levers, buttons, and adjustment controls using natural hand movements.\n\n## Key Implementations\n\n- **Team Leadership:** Oversaw a compact development team, managed delivery schedules, and ensured code quality and testing cycles met pharmaceutical industry compliance requirements.\n\n- **Machine Functionality Simulation:** Designed full interaction logic for machine parts, simulating all stages of the packing process from material feeding through sealing, cutting, and output.\n\n- **VR Hand Controller Integration:** Implemented intuitive VR interactions for operating levers, buttons, and adjustments via Oculus Touch controllers, with haptic feedback for key operations.\n\n- **Reactive System Behavior:** Created system logic that responds realistically to user actions — triggering faults like material jams and configuration errors that require troubleshooting to reflect real-world conditions.\n\n- **Visual Fidelity & UX:** Balanced high-performance 3D visuals with clear user feedback and safety instructions, ensuring immersive yet practical training experiences aligned with actual operating procedures.\n\n## Outcome\n\nThe simulation significantly accelerated new operator onboarding while eliminating risks associated with training on real equipment. Production facilities reported reduced downtime as training could occur independently of machine availability.\n",
+          "code": "var Component=(()=>{var u=Object.create;var r=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var w=(i,e)=>()=>(e||i((e={exports:{}}).exports,e),e.exports),y=(i,e)=>{for(var t in e)r(i,t,{get:e[t],enumerable:!0})},l=(i,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!f.call(i,a)&&a!==t&&r(i,a,{get:()=>e[a],enumerable:!(o=m(e,a))||o.enumerable});return i};var b=(i,e,t)=>(t=i!=null?u(g(i)):{},l(e||!i||!i.__esModule?r(t,\"default\",{value:i,enumerable:!0}):t,i)),v=i=>l(r({},\"__esModule\",{value:!0}),i);var c=w((R,s)=>{s.exports=_jsx_runtime});var j={};y(j,{default:()=>h,frontmatter:()=>k});var n=b(c()),k={title:\"Blister Packing VR\",slug:\"blister-packing-vr\",company:\"ThinkHi\",category:\"VR\",platforms:[\"PC VR\",\"Oculus Rift\"],year:2016,thumbnail:\"/images/projects/blister-packing-cover.webp\",images:[\"/images/projects/blister-1.webp\",\"/images/projects/blister-2.webp\",\"/images/projects/blister-3.webp\",\"/images/projects/blister-4.webp\"],featured:!1,order:11,tags:[\"Unity 3D\",\"VR\",\"Oculus Rift\",\"Machine Simulation\",\"Training\"],summary:\"Detailed VR simulation of a blister packing machine \\u2014 enabling operators to practice material feeding, sealing, and cutting workflows without safety risks or machine downtime.\",impact:\"Reduced new operator training time by 60%. Enabled training without production interruptions, saving estimated \\u20AC50,000 annually in reduced downtime.\"};function d(i){let e={h2:\"h2\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...i.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Overview\"}),`\n`,(0,n.jsx)(e.p,{children:\"Developed a detailed VR simulation of a blister packing machine, enabling users to interact with and learn machine workflows such as material feeding, sealing, and cutting. The experience helps operators practice without safety risks or machine downtime, accelerating skill acquisition and confidence.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"The Challenge\"}),`\n`,(0,n.jsx)(e.p,{children:\"Pharmaceutical packaging training requires hands-on experience with real machinery, but real machines present safety hazards and production downtime. New operators need extensive practice before working with actual equipment. The challenge was to create a simulation that felt authentic enough to transfer skills to real-world machine operation.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Technical Approach\"}),`\n`,(0,n.jsx)(e.p,{children:\"Designed full interaction logic for all machine components with realistic physics responses. Implemented VR hand controller integration for intuitive operation of levers, buttons, and adjustment controls using natural hand movements.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Key Implementations\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Team Leadership:\"}),\" Oversaw a compact development team, managed delivery schedules, and ensured code quality and testing cycles met pharmaceutical industry compliance requirements.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Machine Functionality Simulation:\"}),\" Designed full interaction logic for machine parts, simulating all stages of the packing process from material feeding through sealing, cutting, and output.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"VR Hand Controller Integration:\"}),\" Implemented intuitive VR interactions for operating levers, buttons, and adjustments via Oculus Touch controllers, with haptic feedback for key operations.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Reactive System Behavior:\"}),\" Created system logic that responds realistically to user actions \\u2014 triggering faults like material jams and configuration errors that require troubleshooting to reflect real-world conditions.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Visual Fidelity & UX:\"}),\" Balanced high-performance 3D visuals with clear user feedback and safety instructions, ensuring immersive yet practical training experiences aligned with actual operating procedures.\"]}),`\n`]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Outcome\"}),`\n`,(0,n.jsx)(e.p,{children:\"The simulation significantly accelerated new operator onboarding while eliminating risks associated with training on real equipment. Production facilities reported reduced downtime as training could occur independently of machine availability.\"})]})}function h(i={}){let{wrapper:e}=i.components||{};return e?(0,n.jsx)(e,{...i,children:(0,n.jsx)(d,{...i})}):d(i)}return v(j);})();\n;return Component;"
+        },
+        "_id": "projects/blister-packing-vr.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/blister-packing-vr.mdx",
+          "sourceFileName": "blister-packing-vr.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/blister-packing-vr"
+        },
+        "type": "Project",
+        "url": "/work/blister-packing-vr"
+      },
+      "documentHash": "1776252888024",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/clite-virtual-lab.mdx": {
+      "document": {
+        "title": "Clite Virtual Lab",
+        "slug": "clite-virtual-lab",
+        "company": "Clite Technologies",
+        "category": "Mobile",
+        "platforms": [
+          "PC",
+          "Android"
+        ],
+        "year": 2016,
+        "thumbnail": "/images/projects/clite-virtual-lab-cover.webp",
+        "images": [
+          "/images/projects/clite-1.webp",
+          "/images/projects/clite-2.webp",
+          "/images/projects/clite-3.webp"
+        ],
+        "featured": false,
+        "tags": [
+          "Unity 3D",
+          "Physics Simulation",
+          "Education",
+          "Android",
+          "PC"
+        ],
+        "summary": "Physics-based virtual laboratory simulation for PC and Android — enabling learners to explore science experiments using interactive apparatus that closely mimic actual lab conditions.",
+        "impact": "Adopted by 50+ educational institutions for remote and hybrid learning. Reduced lab setup costs by 80% while maintaining hands-on learning outcomes.",
+        "order": 6,
+        "body": {
+          "raw": "\n## Overview\n\nBuilt a flexible, modular platform that replicates real-world laboratory setups virtually, enabling learners to explore science experiments using interactive apparatus on PC and Android. Designed to promote safety, accessibility, and engagement through hands-on learning simulations that closely mimic actual lab conditions.\n\n## The Challenge\n\nPhysical laboratories present safety risks, require expensive equipment, and cannot scale to meet demand during peak learning periods. Students in remote or underserved areas often lack access to quality lab experiences. The challenge was to create virtual labs that maintained the tactile learning benefits of physical experiments while being universally accessible.\n\n## Technical Approach\n\nDeveloped a modular experiment architecture where each lab simulation operates as a self-contained module. Worked with subject matter experts to ensure educational accuracy while maintaining engaging interactive experiences.\n\n## Key Implementations\n\n- **Interactive Experiment Simulation:** Developed core experiments involving physics interactions, variable control, and apparatus behavior using real-time simulations with accurate physics modeling.\n\n- **UI Redesign with NGUI:** Migrated the UI from Unity's built-in system to NGUI for performance gains and improved responsiveness across device types, reducing frame drops during complex interactions.\n\n- **Cross-Platform Deployment:** Optimized input systems, resolution scaling, and frame performance for seamless experience on both PC and Android platforms with diverse hardware specifications.\n\n- **Modular Architecture:** Designed experiments as self-contained modules enabling scalable integration and curriculum-specific customization, allowing institutions to select experiments relevant to their courses.\n\n- **Academic Collaboration:** Worked alongside subject matter experts to ensure each virtual lab met educational standards and pedagogical accuracy, with learning outcomes aligned to curriculum requirements.\n\n## Outcome\n\nThe virtual lab platform achieved widespread adoption across educational institutions, particularly during periods of remote learning. The modular approach allowed schools to build customized lab curricula while significantly reducing equipment and consumable costs.\n",
+          "code": "var Component=(()=>{var m=Object.create;var r=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var y=(i,e)=>()=>(e||i((e={exports:{}}).exports,e),e.exports),f=(i,e)=>{for(var t in e)r(i,t,{get:e[t],enumerable:!0})},s=(i,e,t,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of h(e))!b.call(i,a)&&a!==t&&r(i,a,{get:()=>e[a],enumerable:!(l=p(e,a))||l.enumerable});return i};var v=(i,e,t)=>(t=i!=null?m(g(i)):{},s(e||!i||!i.__esModule?r(t,\"default\",{value:i,enumerable:!0}):t,i)),x=i=>s(r({},\"__esModule\",{value:!0}),i);var c=y((A,o)=>{o.exports=_jsx_runtime});var C={};f(C,{default:()=>u,frontmatter:()=>w});var n=v(c()),w={title:\"Clite Virtual Lab\",slug:\"clite-virtual-lab\",company:\"Clite Technologies\",category:\"Mobile\",platforms:[\"PC\",\"Android\"],year:2016,thumbnail:\"/images/projects/clite-virtual-lab-cover.webp\",images:[\"/images/projects/clite-1.webp\",\"/images/projects/clite-2.webp\",\"/images/projects/clite-3.webp\"],featured:!1,order:6,tags:[\"Unity 3D\",\"Physics Simulation\",\"Education\",\"Android\",\"PC\"],summary:\"Physics-based virtual laboratory simulation for PC and Android \\u2014 enabling learners to explore science experiments using interactive apparatus that closely mimic actual lab conditions.\",impact:\"Adopted by 50+ educational institutions for remote and hybrid learning. Reduced lab setup costs by 80% while maintaining hands-on learning outcomes.\"};function d(i){let e={h2:\"h2\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...i.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Overview\"}),`\n`,(0,n.jsx)(e.p,{children:\"Built a flexible, modular platform that replicates real-world laboratory setups virtually, enabling learners to explore science experiments using interactive apparatus on PC and Android. Designed to promote safety, accessibility, and engagement through hands-on learning simulations that closely mimic actual lab conditions.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"The Challenge\"}),`\n`,(0,n.jsx)(e.p,{children:\"Physical laboratories present safety risks, require expensive equipment, and cannot scale to meet demand during peak learning periods. Students in remote or underserved areas often lack access to quality lab experiences. The challenge was to create virtual labs that maintained the tactile learning benefits of physical experiments while being universally accessible.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Technical Approach\"}),`\n`,(0,n.jsx)(e.p,{children:\"Developed a modular experiment architecture where each lab simulation operates as a self-contained module. Worked with subject matter experts to ensure educational accuracy while maintaining engaging interactive experiences.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Key Implementations\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Interactive Experiment Simulation:\"}),\" Developed core experiments involving physics interactions, variable control, and apparatus behavior using real-time simulations with accurate physics modeling.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"UI Redesign with NGUI:\"}),\" Migrated the UI from Unity's built-in system to NGUI for performance gains and improved responsiveness across device types, reducing frame drops during complex interactions.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Cross-Platform Deployment:\"}),\" Optimized input systems, resolution scaling, and frame performance for seamless experience on both PC and Android platforms with diverse hardware specifications.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Modular Architecture:\"}),\" Designed experiments as self-contained modules enabling scalable integration and curriculum-specific customization, allowing institutions to select experiments relevant to their courses.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Academic Collaboration:\"}),\" Worked alongside subject matter experts to ensure each virtual lab met educational standards and pedagogical accuracy, with learning outcomes aligned to curriculum requirements.\"]}),`\n`]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Outcome\"}),`\n`,(0,n.jsx)(e.p,{children:\"The virtual lab platform achieved widespread adoption across educational institutions, particularly during periods of remote learning. The modular approach allowed schools to build customized lab curricula while significantly reducing equipment and consumable costs.\"})]})}function u(i={}){let{wrapper:e}=i.components||{};return e?(0,n.jsx)(e,{...i,children:(0,n.jsx)(d,{...i})}):d(i)}return x(C);})();\n;return Component;"
+        },
+        "_id": "projects/clite-virtual-lab.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/clite-virtual-lab.mdx",
+          "sourceFileName": "clite-virtual-lab.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/clite-virtual-lab"
+        },
+        "type": "Project",
+        "url": "/work/clite-virtual-lab"
+      },
+      "documentHash": "1776252842644",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/dx-3d-scene.mdx": {
+      "document": {
+        "title": "DX 3D Scene",
+        "slug": "dx-3d-scene",
+        "company": "Academic Project",
+        "category": "Research",
+        "platforms": [
+          "PC"
+        ],
+        "year": 2012,
+        "thumbnail": "/images/projects/dx-3d-scene-cover.webp",
+        "images": [],
+        "featured": false,
+        "tags": [
+          "DirectX 10",
+          "HLSL",
+          "Shader Programming",
+          "Reflections",
+          "Shadow Mapping"
+        ],
+        "summary": "Real-time 3D scene showcasing reflections, refractions, and shadow techniques — implementing key rendering algorithms for enhanced realism through programmable shaders.",
+        "impact": "Selected as exemplary project for Programming Games module. Techniques incorporated into subsequent coursework on real-time rendering.",
+        "order": 18,
+        "body": {
+          "raw": "\n## Overview\n\nCreated as part of the Programming Games module during the master's program, this project focuses on implementing real-time lighting and surface interaction effects using DirectX 10. The scene demonstrates key rendering techniques aimed at enhancing realism through programmable shaders.\n\n## The Challenge\n\nUnderstanding modern rendering requires implementing fundamental algorithms from scratch. The challenge was to create a scene that clearly demonstrated multiple rendering techniques while maintaining visual appeal and real-time performance.\n\n## Technical Approach\n\nImplemented custom HLSL shaders for material response and lighting calculations. Developed multi-pass rendering pipelines for reflection and shadow effects using render targets and depth buffers.\n\n## Key Implementations\n\n- **Real-Time Reflection & Refraction:** Created surface shaders to simulate dynamic light bending and reflective materials using multiple render passes and screen-space techniques.\n\n- **Dynamic Shadow Mapping:** Implemented depth-based shadows with accurate projection based on light direction and occluders, including shadow filtering for soft shadow edges.\n\n- **Optimized Scene Composition:** Built a balanced 3D layout to clearly demonstrate the interaction of light, shadow, and surface materials with multiple material types and lighting conditions.\n\n- **Shader Programming:** Wrote custom HLSL shaders for material response and per-pixel lighting accuracy, covering ambient, diffuse, specular, and emissive lighting models.\n\n- **Performance Profiling:** Developed profiling tools to measure rendering performance and identify optimization opportunities in the shader pipeline.\n\n## Outcome\n\nThe project was selected as an exemplary submission for the Programming Games module, with techniques incorporated into subsequent course materials. The implementation provided a foundation for understanding more advanced rendering concepts in later coursework and professional work.\n",
+          "code": "var Component=(()=>{var h=Object.create;var t=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var w=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),y=(r,e)=>{for(var i in e)t(r,i,{get:e[i],enumerable:!0})},o=(r,e,i,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of g(e))!f.call(r,a)&&a!==i&&t(r,a,{get:()=>e[a],enumerable:!(s=p(e,a))||s.enumerable});return r};var x=(r,e,i)=>(i=r!=null?h(u(r)):{},o(e||!r||!r.__esModule?t(i,\"default\",{value:r,enumerable:!0}):i,r)),b=r=>o(t({},\"__esModule\",{value:!0}),r);var c=w((S,l)=>{l.exports=_jsx_runtime});var v={};y(v,{default:()=>m,frontmatter:()=>j});var n=x(c()),j={title:\"DX 3D Scene\",slug:\"dx-3d-scene\",company:\"Academic Project\",category:\"Research\",platforms:[\"PC\"],year:2012,thumbnail:\"/images/projects/dx-3d-scene-cover.webp\",images:[],featured:!1,order:18,tags:[\"DirectX 10\",\"HLSL\",\"Shader Programming\",\"Reflections\",\"Shadow Mapping\"],summary:\"Real-time 3D scene showcasing reflections, refractions, and shadow techniques \\u2014 implementing key rendering algorithms for enhanced realism through programmable shaders.\",impact:\"Selected as exemplary project for Programming Games module. Techniques incorporated into subsequent coursework on real-time rendering.\"};function d(r){let e={h2:\"h2\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...r.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Overview\"}),`\n`,(0,n.jsx)(e.p,{children:\"Created as part of the Programming Games module during the master's program, this project focuses on implementing real-time lighting and surface interaction effects using DirectX 10. The scene demonstrates key rendering techniques aimed at enhancing realism through programmable shaders.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"The Challenge\"}),`\n`,(0,n.jsx)(e.p,{children:\"Understanding modern rendering requires implementing fundamental algorithms from scratch. The challenge was to create a scene that clearly demonstrated multiple rendering techniques while maintaining visual appeal and real-time performance.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Technical Approach\"}),`\n`,(0,n.jsx)(e.p,{children:\"Implemented custom HLSL shaders for material response and lighting calculations. Developed multi-pass rendering pipelines for reflection and shadow effects using render targets and depth buffers.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Key Implementations\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Real-Time Reflection & Refraction:\"}),\" Created surface shaders to simulate dynamic light bending and reflective materials using multiple render passes and screen-space techniques.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Dynamic Shadow Mapping:\"}),\" Implemented depth-based shadows with accurate projection based on light direction and occluders, including shadow filtering for soft shadow edges.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Optimized Scene Composition:\"}),\" Built a balanced 3D layout to clearly demonstrate the interaction of light, shadow, and surface materials with multiple material types and lighting conditions.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Shader Programming:\"}),\" Wrote custom HLSL shaders for material response and per-pixel lighting accuracy, covering ambient, diffuse, specular, and emissive lighting models.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Performance Profiling:\"}),\" Developed profiling tools to measure rendering performance and identify optimization opportunities in the shader pipeline.\"]}),`\n`]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Outcome\"}),`\n`,(0,n.jsx)(e.p,{children:\"The project was selected as an exemplary submission for the Programming Games module, with techniques incorporated into subsequent course materials. The implementation provided a foundation for understanding more advanced rendering concepts in later coursework and professional work.\"})]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(d,{...r})}):d(r)}return b(v);})();\n;return Component;"
+        },
+        "_id": "projects/dx-3d-scene.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/dx-3d-scene.mdx",
+          "sourceFileName": "dx-3d-scene.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/dx-3d-scene"
+        },
+        "type": "Project",
+        "url": "/work/dx-3d-scene"
+      },
+      "documentHash": "1776252944228",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/home-designer.mdx": {
+      "document": {
+        "title": "Home Designer",
+        "slug": "home-designer",
+        "company": "Personal Project",
+        "category": "Research",
+        "platforms": [
+          "Android"
+        ],
+        "year": 2014,
+        "thumbnail": "/images/projects/home-designer-cover.webp",
+        "images": [],
+        "featured": false,
+        "tags": [
+          "Unity 3D",
+          "Android",
+          "3D Design",
+          "Save/Load",
+          "Mobile"
+        ],
+        "summary": "Interactive 3D interior design prototype with save, load, and share functionality — focusing on user freedom, spatial customization, and intuitive touch-based interaction design.",
+        "impact": "Demonstrated viability of mobile 3D design tools. UX patterns influenced commercial product decisions at partner organizations.",
+        "order": 13,
+        "body": {
+          "raw": "\n## Overview\n\nA self-initiated prototype that allows users to design, customize, and visualize interior layouts in a 3D environment. The app offers intuitive object manipulation, persistent storage, and sharing features for hobbyists or early interior planning stages.\n\n## The Challenge\n\nMobile devices present unique challenges for 3D content creation — limited processing power, constrained input methods, and the need for responsive touch interfaces. The challenge was to create a design experience that felt natural on touchscreens while producing meaningful 3D output.\n\n## Technical Approach\n\nDeveloped touch-optimized input systems for object manipulation in 3D space. Implemented data serialization for design persistence and export capabilities for sharing.\n\n## Key Implementations\n\n- **Real-Time Layout Tools:** Placed, rotated, and scaled objects within a 3D space using touch gestures — pinch to scale, two-finger rotate, drag to position — for accurate visual feedback and arrangement flexibility.\n\n- **Furniture & Object Catalog:** Included a varied asset set: sofas, lights, tables, kitchen units, decor, and appliances with category organization and search functionality.\n\n- **Persistent Save/Load System:** Enabled users to store and reload design states, supporting multiple design variations and the ability to revisit and modify previous iterations.\n\n- **Design Sharing:** Supported exporting design data to enable review, collaboration, or showcasing of designs with others through standard file formats.\n\n- **Touch Interface Optimization:** Adapted traditional mouse-based design paradigms to touch input with gesture recognition and context-aware tool selection.\n\n## Outcome\n\nThe prototype demonstrated that mobile devices could support meaningful 3D design experiences. Several UX patterns and interaction models from this project were adapted for commercial applications, influencing product decisions at partner organizations.\n",
+          "code": "var Component=(()=>{var p=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),v=(t,e)=>{for(var i in e)r(t,i,{get:e[i],enumerable:!0})},s=(t,e,i,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of g(e))!f.call(t,o)&&o!==i&&r(t,o,{get:()=>e[o],enumerable:!(a=u(e,o))||a.enumerable});return t};var y=(t,e,i)=>(i=t!=null?p(m(t)):{},s(e||!t||!t.__esModule?r(i,\"default\",{value:t,enumerable:!0}):i,t)),w=t=>s(r({},\"__esModule\",{value:!0}),t);var d=b((z,c)=>{c.exports=_jsx_runtime});var x={};v(x,{default:()=>h,frontmatter:()=>D});var n=y(d()),D={title:\"Home Designer\",slug:\"home-designer\",company:\"Personal Project\",category:\"Research\",platforms:[\"Android\"],year:2014,thumbnail:\"/images/projects/home-designer-cover.webp\",images:[],featured:!1,order:13,tags:[\"Unity 3D\",\"Android\",\"3D Design\",\"Save/Load\",\"Mobile\"],summary:\"Interactive 3D interior design prototype with save, load, and share functionality \\u2014 focusing on user freedom, spatial customization, and intuitive touch-based interaction design.\",impact:\"Demonstrated viability of mobile 3D design tools. UX patterns influenced commercial product decisions at partner organizations.\"};function l(t){let e={h2:\"h2\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Overview\"}),`\n`,(0,n.jsx)(e.p,{children:\"A self-initiated prototype that allows users to design, customize, and visualize interior layouts in a 3D environment. The app offers intuitive object manipulation, persistent storage, and sharing features for hobbyists or early interior planning stages.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"The Challenge\"}),`\n`,(0,n.jsx)(e.p,{children:\"Mobile devices present unique challenges for 3D content creation \\u2014 limited processing power, constrained input methods, and the need for responsive touch interfaces. The challenge was to create a design experience that felt natural on touchscreens while producing meaningful 3D output.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Technical Approach\"}),`\n`,(0,n.jsx)(e.p,{children:\"Developed touch-optimized input systems for object manipulation in 3D space. Implemented data serialization for design persistence and export capabilities for sharing.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Key Implementations\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Real-Time Layout Tools:\"}),\" Placed, rotated, and scaled objects within a 3D space using touch gestures \\u2014 pinch to scale, two-finger rotate, drag to position \\u2014 for accurate visual feedback and arrangement flexibility.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Furniture & Object Catalog:\"}),\" Included a varied asset set: sofas, lights, tables, kitchen units, decor, and appliances with category organization and search functionality.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Persistent Save/Load System:\"}),\" Enabled users to store and reload design states, supporting multiple design variations and the ability to revisit and modify previous iterations.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Design Sharing:\"}),\" Supported exporting design data to enable review, collaboration, or showcasing of designs with others through standard file formats.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Touch Interface Optimization:\"}),\" Adapted traditional mouse-based design paradigms to touch input with gesture recognition and context-aware tool selection.\"]}),`\n`]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Outcome\"}),`\n`,(0,n.jsx)(e.p,{children:\"The prototype demonstrated that mobile devices could support meaningful 3D design experiences. Several UX patterns and interaction models from this project were adapted for commercial applications, influencing product decisions at partner organizations.\"})]})}function h(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(l,{...t})}):l(t)}return w(x);})();\n;return Component;"
+        },
+        "_id": "projects/home-designer.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/home-designer.mdx",
+          "sourceFileName": "home-designer.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/home-designer"
+        },
+        "type": "Project",
+        "url": "/work/home-designer"
+      },
+      "documentHash": "1776252904419",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/kurangu-bommai-game.mdx": {
+      "document": {
+        "title": "Kurangu Bommai",
+        "slug": "kurangu-bommai-game",
+        "company": "ThinkHi",
+        "category": "Game",
+        "platforms": [
+          "Android"
+        ],
+        "year": 2017,
+        "thumbnail": "/images/projects/kurangu-bommai-cover.webp",
+        "images": [
+          "/images/projects/kurangu-bommai-1.webp"
+        ],
+        "featured": false,
+        "tags": [
+          "Unity 3D",
+          "Game",
+          "Android",
+          "Maze Puzzle",
+          "Film Promotion"
+        ],
+        "summary": "Promotional maze puzzle game for the Tamil film Kurangu Bommai — featuring five uniquely colored characters tied to color-matching gate mechanics, delivered in 5 days.",
+        "impact": "Reached 100,000+ downloads during theatrical release window. Generated significant social media engagement and brand awareness for the film's cross-media promotion.",
+        "order": 7,
+        "body": {
+          "raw": "\n## Overview\n\nCreated as the official mobile game for the Tamil film *Kurangu Bommai*, this maze-based puzzle experience features five uniquely colored characters, each tied to a corresponding gate mechanism. The game was built under extreme time constraints to amplify buzz during the movie's theatrical promotion window.\n\n## The Challenge\n\nFilm promotional games often suffer from generic gameplay that fails to create meaningful engagement with the film's brand. The challenge was to create a game with distinctive mechanics and strong thematic integration while working within an extremely compressed five-day development timeline.\n\n## Technical Approach\n\nDesigned and implemented the complete game solo, from concept through deployment. Created custom maze generation algorithms and color-matching puzzle mechanics that aligned with the film's thematic elements.\n\n## Key Implementations\n\n- **Solo Development:** Independently handled concept, mechanics, design, and deployment — delivering the entire project within 5 days to meet film promotion timelines without sacrificing quality.\n\n- **Game Logic & Mechanics:** Implemented a color-matching puzzle system where characters can only pass through gates of their own color, encouraging strategic planning and multi-step route optimization.\n\n- **Level & Maze Design:** Built multiple handcrafted maze layouts with progressive difficulty and character coordination challenges to maintain engagement across the game's duration.\n\n- **Touch Controls & Optimization:** Designed mobile-friendly touch input with swipe gestures and ensured smooth performance across a wide range of Android devices, from budget phones to flagship devices.\n\n- **Thematic Integration:** Synchronized game visuals and audio with the branding and narrative tone of Kurangu Bommai, delivering a consistent cross-media experience for film fans.\n\n## Outcome\n\nThe game achieved significant download volume during the film's theatrical window, generating social media buzz and reinforcing brand awareness across the film's target demographic. The strong thematic integration was praised by both players and film promotional teams.\n",
+          "code": "var Component=(()=>{var h=Object.create;var r=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var w=(i,e)=>()=>(e||i((e={exports:{}}).exports,e),e.exports),y=(i,e)=>{for(var a in e)r(i,a,{get:e[a],enumerable:!0})},l=(i,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of u(e))!f.call(i,t)&&t!==a&&r(i,t,{get:()=>e[t],enumerable:!(o=g(e,t))||o.enumerable});return i};var z=(i,e,a)=>(a=i!=null?h(p(i)):{},l(e||!i||!i.__esModule?r(a,\"default\",{value:i,enumerable:!0}):a,i)),v=i=>l(r({},\"__esModule\",{value:!0}),i);var c=w((j,m)=>{m.exports=_jsx_runtime});var x={};y(x,{default:()=>d,frontmatter:()=>b});var n=z(c()),b={title:\"Kurangu Bommai\",slug:\"kurangu-bommai-game\",company:\"ThinkHi\",category:\"Game\",platforms:[\"Android\"],year:2017,thumbnail:\"/images/projects/kurangu-bommai-cover.webp\",images:[\"/images/projects/kurangu-bommai-1.webp\"],featured:!1,order:7,tags:[\"Unity 3D\",\"Game\",\"Android\",\"Maze Puzzle\",\"Film Promotion\"],summary:\"Promotional maze puzzle game for the Tamil film Kurangu Bommai \\u2014 featuring five uniquely colored characters tied to color-matching gate mechanics, delivered in 5 days.\",impact:\"Reached 100,000+ downloads during theatrical release window. Generated significant social media engagement and brand awareness for the film's cross-media promotion.\"};function s(i){let e={em:\"em\",h2:\"h2\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...i.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Overview\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"Created as the official mobile game for the Tamil film \",(0,n.jsx)(e.em,{children:\"Kurangu Bommai\"}),\", this maze-based puzzle experience features five uniquely colored characters, each tied to a corresponding gate mechanism. The game was built under extreme time constraints to amplify buzz during the movie's theatrical promotion window.\"]}),`\n`,(0,n.jsx)(e.h2,{children:\"The Challenge\"}),`\n`,(0,n.jsx)(e.p,{children:\"Film promotional games often suffer from generic gameplay that fails to create meaningful engagement with the film's brand. The challenge was to create a game with distinctive mechanics and strong thematic integration while working within an extremely compressed five-day development timeline.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Technical Approach\"}),`\n`,(0,n.jsx)(e.p,{children:\"Designed and implemented the complete game solo, from concept through deployment. Created custom maze generation algorithms and color-matching puzzle mechanics that aligned with the film's thematic elements.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Key Implementations\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Solo Development:\"}),\" Independently handled concept, mechanics, design, and deployment \\u2014 delivering the entire project within 5 days to meet film promotion timelines without sacrificing quality.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Game Logic & Mechanics:\"}),\" Implemented a color-matching puzzle system where characters can only pass through gates of their own color, encouraging strategic planning and multi-step route optimization.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Level & Maze Design:\"}),\" Built multiple handcrafted maze layouts with progressive difficulty and character coordination challenges to maintain engagement across the game's duration.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Touch Controls & Optimization:\"}),\" Designed mobile-friendly touch input with swipe gestures and ensured smooth performance across a wide range of Android devices, from budget phones to flagship devices.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Thematic Integration:\"}),\" Synchronized game visuals and audio with the branding and narrative tone of Kurangu Bommai, delivering a consistent cross-media experience for film fans.\"]}),`\n`]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Outcome\"}),`\n`,(0,n.jsx)(e.p,{children:\"The game achieved significant download volume during the film's theatrical window, generating social media buzz and reinforcing brand awareness across the film's target demographic. The strong thematic integration was praised by both players and film promotional teams.\"})]})}function d(i={}){let{wrapper:e}=i.components||{};return e?(0,n.jsx)(e,{...i,children:(0,n.jsx)(s,{...i})}):s(i)}return v(x);})();\n;return Component;"
+        },
+        "_id": "projects/kurangu-bommai-game.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/kurangu-bommai-game.mdx",
+          "sourceFileName": "kurangu-bommai-game.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/kurangu-bommai-game"
+        },
+        "type": "Project",
+        "url": "/work/kurangu-bommai-game"
+      },
+      "documentHash": "1776252851130",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/lensx-interactive-3d.mdx": {
+      "document": {
+        "title": "LensX Interactive 3D",
+        "slug": "lensx-interactive-3d",
+        "company": "Sify Technologies",
+        "category": "WebGL",
+        "platforms": [
+          "WebGL"
+        ],
+        "year": 2021,
+        "thumbnail": "/images/projects/lensx-cover.webp",
+        "images": [
+          "/images/projects/lensx-1.webp"
+        ],
+        "featured": false,
+        "tags": [
+          "Unity 3D",
+          "WebGL",
+          "3D Interactive",
+          "Assessment",
+          "Education"
+        ],
+        "summary": "Immersive WebGL-based 3D questionnaire for post-training knowledge assessment — combining interactive visuals and contextual scenarios to increase engagement and comprehension.",
+        "impact": "Improved knowledge retention scores by 35% compared to traditional assessment methods. Enabled data-driven insights into learner performance across training cohorts.",
+        "order": 3,
+        "body": {
+          "raw": "\n## Overview\n\nDeveloped an interactive 3D WebGL application designed to assess learners' understanding of key training concepts in a simulated environment. By combining immersive visuals with contextual scenarios, the platform increased user engagement and comprehension while enabling instructors to evaluate knowledge retention more effectively than traditional multiple-choice assessments.\n\n## The Challenge\n\nPost-training assessments often suffer from low engagement and limited ability to measure practical understanding. Traditional quizzes fail to capture how well learners can apply knowledge in realistic scenarios. The challenge was to create an assessment tool that felt engaging and relevant while providing meaningful data about learner competency.\n\n## Technical Approach\n\nLed the design and integration of 3D environments that presented contextual questions and visual cues within a browser-friendly WebGL framework. Coordinated with the design team to create scenarios that mimicked real-world situations where training concepts would be applied.\n\n## Key Implementations\n\n- **Project Planning & Execution:** Defined project goals, milestones, and timelines in collaboration with stakeholders. Maintained comprehensive development plans to ensure timely delivery within budget constraints.\n\n- **Interactive 3D Experience:** Led the design and integration of 3D environments that presented contextual questions and visual cues within a browser-friendly WebGL framework, ensuring broad accessibility without requiring VR hardware.\n\n- **Team Coordination:** Assigned tasks, monitored progress, and managed workload across Unity developers, designers, and testers to align implementation with educational outcomes.\n\n- **QA & Cross-Browser Compatibility:** Defined testing criteria and worked closely with QA to ensure reliable performance across multiple devices, browsers, and operating systems.\n\n- **User Feedback Integration:** Incorporated trainer and learner feedback through multiple iteration cycles to improve clarity, responsiveness, and engagement metrics.\n\n## Outcome\n\nThe platform demonstrated significant improvements in knowledge retention measurement, with assessment scores correlating more strongly with practical performance than traditional methods. The interactive approach increased completion rates and provided richer data for instructional improvement.\n",
+          "code": "var Component=(()=>{var h=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,w=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),v=(t,e)=>{for(var i in e)a(t,i,{get:e[i],enumerable:!0})},o=(t,e,i,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of g(e))!w.call(t,r)&&r!==i&&a(t,r,{get:()=>e[r],enumerable:!(s=p(e,r))||s.enumerable});return t};var b=(t,e,i)=>(i=t!=null?h(u(t)):{},o(e||!t||!t.__esModule?a(i,\"default\",{value:t,enumerable:!0}):i,t)),y=t=>o(a({},\"__esModule\",{value:!0}),t);var c=f((L,l)=>{l.exports=_jsx_runtime});var k={};v(k,{default:()=>m,frontmatter:()=>x});var n=b(c()),x={title:\"LensX Interactive 3D\",slug:\"lensx-interactive-3d\",company:\"Sify Technologies\",category:\"WebGL\",platforms:[\"WebGL\"],year:2021,thumbnail:\"/images/projects/lensx-cover.webp\",images:[\"/images/projects/lensx-1.webp\"],featured:!1,order:3,tags:[\"Unity 3D\",\"WebGL\",\"3D Interactive\",\"Assessment\",\"Education\"],summary:\"Immersive WebGL-based 3D questionnaire for post-training knowledge assessment \\u2014 combining interactive visuals and contextual scenarios to increase engagement and comprehension.\",impact:\"Improved knowledge retention scores by 35% compared to traditional assessment methods. Enabled data-driven insights into learner performance across training cohorts.\"};function d(t){let e={h2:\"h2\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Overview\"}),`\n`,(0,n.jsx)(e.p,{children:\"Developed an interactive 3D WebGL application designed to assess learners' understanding of key training concepts in a simulated environment. By combining immersive visuals with contextual scenarios, the platform increased user engagement and comprehension while enabling instructors to evaluate knowledge retention more effectively than traditional multiple-choice assessments.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"The Challenge\"}),`\n`,(0,n.jsx)(e.p,{children:\"Post-training assessments often suffer from low engagement and limited ability to measure practical understanding. Traditional quizzes fail to capture how well learners can apply knowledge in realistic scenarios. The challenge was to create an assessment tool that felt engaging and relevant while providing meaningful data about learner competency.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Technical Approach\"}),`\n`,(0,n.jsx)(e.p,{children:\"Led the design and integration of 3D environments that presented contextual questions and visual cues within a browser-friendly WebGL framework. Coordinated with the design team to create scenarios that mimicked real-world situations where training concepts would be applied.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Key Implementations\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Project Planning & Execution:\"}),\" Defined project goals, milestones, and timelines in collaboration with stakeholders. Maintained comprehensive development plans to ensure timely delivery within budget constraints.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Interactive 3D Experience:\"}),\" Led the design and integration of 3D environments that presented contextual questions and visual cues within a browser-friendly WebGL framework, ensuring broad accessibility without requiring VR hardware.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Team Coordination:\"}),\" Assigned tasks, monitored progress, and managed workload across Unity developers, designers, and testers to align implementation with educational outcomes.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"QA & Cross-Browser Compatibility:\"}),\" Defined testing criteria and worked closely with QA to ensure reliable performance across multiple devices, browsers, and operating systems.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"User Feedback Integration:\"}),\" Incorporated trainer and learner feedback through multiple iteration cycles to improve clarity, responsiveness, and engagement metrics.\"]}),`\n`]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Outcome\"}),`\n`,(0,n.jsx)(e.p,{children:\"The platform demonstrated significant improvements in knowledge retention measurement, with assessment scores correlating more strongly with practical performance than traditional methods. The interactive approach increased completion rates and provided richer data for instructional improvement.\"})]})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(d,{...t})}):d(t)}return y(k);})();\n;return Component;"
+        },
+        "_id": "projects/lensx-interactive-3d.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/lensx-interactive-3d.mdx",
+          "sourceFileName": "lensx-interactive-3d.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/lensx-interactive-3d"
+        },
+        "type": "Project",
+        "url": "/work/lensx-interactive-3d"
+      },
+      "documentHash": "1776252813457",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/lykagluv-try-on.mdx": {
+      "document": {
+        "title": "Lykagluv Virtual Try-On",
+        "slug": "lykagluv-try-on",
+        "company": "ThinkHi",
+        "category": "Mobile",
+        "platforms": [
+          "Android",
+          "iOS"
+        ],
+        "year": 2017,
+        "thumbnail": "/images/projects/lykagluv-cover.webp",
+        "images": [],
+        "featured": false,
+        "tags": [
+          "Unity 3D",
+          "Mobile",
+          "Avatar Customization",
+          "E-Commerce",
+          "AR"
+        ],
+        "summary": "Personalized virtual fitting experience with live garment visualization — allowing users to virtually try on clothing using customizable 3D avatars generated from body measurements.",
+        "impact": "Reduced return rates by 40% for partner retailers. Increased average order value by 25% through improved purchase confidence.",
+        "order": 9,
+        "body": {
+          "raw": "\n## Overview\n\nLykagluv redefines the retail shopping journey by allowing users to virtually try on clothing and accessories using customizable 3D avatars. With facial capture and measurement-based avatar generation, the app delivers a realistic, immersive try-before-you-buy experience, enhancing convenience in both online and in-store environments.\n\n## The Challenge\n\nOnline apparel retail suffers from high return rates driven by fit uncertainty and inability to try products before purchase. Customers lack confidence in sizing decisions without physical try-on experiences. The challenge was to create a convincing virtual try-on system that users would trust for purchase decisions.\n\n## Technical Approach\n\nLed the development of avatar customization systems with measurement-based generation and facial photo mapping. Coordinated with e-commerce teams to integrate try-on experiences with product catalogs and checkout flows.\n\n## Key Implementations\n\n- **Project Leadership & Team Coordination:** Managed a compact team of one Unity developer and two 3D artists, overseeing timelines, task tracking, and delivery schedules for the mobile app launch.\n\n- **Avatar Customization & Measurement Mapping:** Guided the implementation of scalable avatars generated from user-entered body measurements, ensuring accurate garment fitting and realistic simulation across diverse body types.\n\n- **Facial Capture Integration:** Led integration of face photo mapping onto avatars to personalize the virtual try-on experience and increase relatability for users seeing themselves in the garments.\n\n- **E-Commerce & Try-On Flow Integration:** Coordinated with the e-commerce team to link try-on experiences to real-time product inventory, enabling seamless in-app purchases with size recommendations based on avatar fit.\n\n- **Performance Optimization:** Optimized rendering pipelines for mobile GPUs to maintain smooth frame rates during garment simulation and avatar animation.\n\n## Outcome\n\nPartner retailers reported significant reductions in return rates and increases in average order value. The try-on experience increased customer confidence in online apparel purchases, particularly for first-time customers unfamiliar with brand sizing.\n",
+          "code": "var Component=(()=>{var h=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),v=(r,e)=>{for(var t in e)a(r,t,{get:e[t],enumerable:!0})},s=(r,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of p(e))!y.call(r,i)&&i!==t&&a(r,i,{get:()=>e[i],enumerable:!(o=u(e,i))||o.enumerable});return r};var b=(r,e,t)=>(t=r!=null?h(g(r)):{},s(e||!r||!r.__esModule?a(t,\"default\",{value:r,enumerable:!0}):t,r)),w=r=>s(a({},\"__esModule\",{value:!0}),r);var c=f((k,l)=>{l.exports=_jsx_runtime});var z={};v(z,{default:()=>m,frontmatter:()=>x});var n=b(c()),x={title:\"Lykagluv Virtual Try-On\",slug:\"lykagluv-try-on\",company:\"ThinkHi\",category:\"Mobile\",platforms:[\"Android\",\"iOS\"],year:2017,thumbnail:\"/images/projects/lykagluv-cover.webp\",images:[],featured:!1,order:9,tags:[\"Unity 3D\",\"Mobile\",\"Avatar Customization\",\"E-Commerce\",\"AR\"],summary:\"Personalized virtual fitting experience with live garment visualization \\u2014 allowing users to virtually try on clothing using customizable 3D avatars generated from body measurements.\",impact:\"Reduced return rates by 40% for partner retailers. Increased average order value by 25% through improved purchase confidence.\"};function d(r){let e={h2:\"h2\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...r.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Overview\"}),`\n`,(0,n.jsx)(e.p,{children:\"Lykagluv redefines the retail shopping journey by allowing users to virtually try on clothing and accessories using customizable 3D avatars. With facial capture and measurement-based avatar generation, the app delivers a realistic, immersive try-before-you-buy experience, enhancing convenience in both online and in-store environments.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"The Challenge\"}),`\n`,(0,n.jsx)(e.p,{children:\"Online apparel retail suffers from high return rates driven by fit uncertainty and inability to try products before purchase. Customers lack confidence in sizing decisions without physical try-on experiences. The challenge was to create a convincing virtual try-on system that users would trust for purchase decisions.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Technical Approach\"}),`\n`,(0,n.jsx)(e.p,{children:\"Led the development of avatar customization systems with measurement-based generation and facial photo mapping. Coordinated with e-commerce teams to integrate try-on experiences with product catalogs and checkout flows.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Key Implementations\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Project Leadership & Team Coordination:\"}),\" Managed a compact team of one Unity developer and two 3D artists, overseeing timelines, task tracking, and delivery schedules for the mobile app launch.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Avatar Customization & Measurement Mapping:\"}),\" Guided the implementation of scalable avatars generated from user-entered body measurements, ensuring accurate garment fitting and realistic simulation across diverse body types.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Facial Capture Integration:\"}),\" Led integration of face photo mapping onto avatars to personalize the virtual try-on experience and increase relatability for users seeing themselves in the garments.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"E-Commerce & Try-On Flow Integration:\"}),\" Coordinated with the e-commerce team to link try-on experiences to real-time product inventory, enabling seamless in-app purchases with size recommendations based on avatar fit.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Performance Optimization:\"}),\" Optimized rendering pipelines for mobile GPUs to maintain smooth frame rates during garment simulation and avatar animation.\"]}),`\n`]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Outcome\"}),`\n`,(0,n.jsx)(e.p,{children:\"Partner retailers reported significant reductions in return rates and increases in average order value. The try-on experience increased customer confidence in online apparel purchases, particularly for first-time customers unfamiliar with brand sizing.\"})]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(d,{...r})}):d(r)}return w(z);})();\n;return Component;"
+        },
+        "_id": "projects/lykagluv-try-on.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/lykagluv-try-on.mdx",
+          "sourceFileName": "lykagluv-try-on.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/lykagluv-try-on"
+        },
+        "type": "Project",
+        "url": "/work/lykagluv-try-on"
+      },
+      "documentHash": "1776252867968",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/malfunky.mdx": {
+      "document": {
+        "title": "Malfunky",
+        "slug": "malfunky",
+        "company": "Academic Team Project",
+        "category": "Game",
+        "platforms": [
+          "PC",
+          "Xbox 360"
+        ],
+        "year": 2012,
+        "thumbnail": "/images/projects/malfunky-cover.webp",
+        "images": [],
+        "featured": false,
+        "tags": [
+          "UDK",
+          "Unreal Engine",
+          "Game Design",
+          "Console Development",
+          "Team Project"
+        ],
+        "summary": "3D puzzle platformer for Xbox 360 and PC — developed by an 11-person multidisciplinary team, following a fragmented robot reuniting its three components to escape a hazardous factory.",
+        "impact": "Presented at university showcase event. Team dynamics and production processes documented as case study for future student projects.",
+        "order": 16,
+        "body": {
+          "raw": "\n## Overview\n\nMalfunky is a third-person 3D platformer created by a team of 11, including programmers, artists, designers, and audio specialists. Developed for Xbox 360 and PC, the game follows the journey of a fragmented, sentient robot navigating a hazardous factory. Players must reunite its three separated components, each with unique abilities, to solve puzzles and escape the facility.\n\n## The Challenge\n\nTeam-based game development requires coordination across disciplines with different priorities and skill levels. Academic timelines create pressure to deliver complete, polished experiences. The challenge was to manage a large team while producing a coherent, playable game within semester constraints.\n\n## Technical Approach\n\nContributed as one of five programmers in a diverse development team. Focused on core platformer mechanics and console-specific optimizations while collaborating with designers and artists for puzzle integration.\n\n## Key Implementations\n\n- **Cross-Disciplinary Collaboration:** Contributed as one of five programmers in a diverse development team, collaborating closely with designers and artists to align gameplay mechanics and visual storytelling.\n\n- **Platformer Core Mechanics:** Helped implement movement logic, camera systems, and platforming interactions tailored for controller-based play on Xbox 360, including physics tuning for responsive feel.\n\n- **Puzzle Integration:** Supported development of object-switching mechanics and character-specific puzzle-solving based on each robot part's abilities, working with level designers to implement their visions.\n\n- **Multi-Platform Deployment:** Optimized builds and inputs for both Xbox 360 and PC platforms, ensuring smooth user experience across target devices with different input paradigms.\n\n- **Audio Integration:** Coordinated with audio specialists to integrate dynamic sound effects and music that responded to gameplay state.\n\n## Outcome\n\nThe game was successfully presented at the university showcase event, receiving positive feedback from peers and faculty. The project's production documentation became a case study for subsequent cohorts, illustrating effective team coordination strategies for game development projects.\n",
+          "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var y=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),v=(t,e)=>{for(var i in e)a(t,i,{get:e[i],enumerable:!0})},s=(t,e,i,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of u(e))!f.call(t,r)&&r!==i&&a(t,r,{get:()=>e[r],enumerable:!(o=h(e,r))||o.enumerable});return t};var b=(t,e,i)=>(i=t!=null?p(g(t)):{},s(e||!t||!t.__esModule?a(i,\"default\",{value:t,enumerable:!0}):i,t)),w=t=>s(a({},\"__esModule\",{value:!0}),t);var c=y((j,l)=>{l.exports=_jsx_runtime});var z={};v(z,{default:()=>m,frontmatter:()=>x});var n=b(c()),x={title:\"Malfunky\",slug:\"malfunky\",company:\"Academic Team Project\",category:\"Game\",platforms:[\"PC\",\"Xbox 360\"],year:2012,thumbnail:\"/images/projects/malfunky-cover.webp\",images:[],featured:!1,order:16,tags:[\"UDK\",\"Unreal Engine\",\"Game Design\",\"Console Development\",\"Team Project\"],summary:\"3D puzzle platformer for Xbox 360 and PC \\u2014 developed by an 11-person multidisciplinary team, following a fragmented robot reuniting its three components to escape a hazardous factory.\",impact:\"Presented at university showcase event. Team dynamics and production processes documented as case study for future student projects.\"};function d(t){let e={h2:\"h2\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Overview\"}),`\n`,(0,n.jsx)(e.p,{children:\"Malfunky is a third-person 3D platformer created by a team of 11, including programmers, artists, designers, and audio specialists. Developed for Xbox 360 and PC, the game follows the journey of a fragmented, sentient robot navigating a hazardous factory. Players must reunite its three separated components, each with unique abilities, to solve puzzles and escape the facility.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"The Challenge\"}),`\n`,(0,n.jsx)(e.p,{children:\"Team-based game development requires coordination across disciplines with different priorities and skill levels. Academic timelines create pressure to deliver complete, polished experiences. The challenge was to manage a large team while producing a coherent, playable game within semester constraints.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Technical Approach\"}),`\n`,(0,n.jsx)(e.p,{children:\"Contributed as one of five programmers in a diverse development team. Focused on core platformer mechanics and console-specific optimizations while collaborating with designers and artists for puzzle integration.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Key Implementations\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Cross-Disciplinary Collaboration:\"}),\" Contributed as one of five programmers in a diverse development team, collaborating closely with designers and artists to align gameplay mechanics and visual storytelling.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Platformer Core Mechanics:\"}),\" Helped implement movement logic, camera systems, and platforming interactions tailored for controller-based play on Xbox 360, including physics tuning for responsive feel.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Puzzle Integration:\"}),\" Supported development of object-switching mechanics and character-specific puzzle-solving based on each robot part's abilities, working with level designers to implement their visions.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Multi-Platform Deployment:\"}),\" Optimized builds and inputs for both Xbox 360 and PC platforms, ensuring smooth user experience across target devices with different input paradigms.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Audio Integration:\"}),\" Coordinated with audio specialists to integrate dynamic sound effects and music that responded to gameplay state.\"]}),`\n`]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Outcome\"}),`\n`,(0,n.jsx)(e.p,{children:\"The game was successfully presented at the university showcase event, receiving positive feedback from peers and faculty. The project's production documentation became a case study for subsequent cohorts, illustrating effective team coordination strategies for game development projects.\"})]})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(d,{...t})}):d(t)}return w(z);})();\n;return Component;"
+        },
+        "_id": "projects/malfunky.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/malfunky.mdx",
+          "sourceFileName": "malfunky.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/malfunky"
+        },
+        "type": "Project",
+        "url": "/work/malfunky"
+      },
+      "documentHash": "1776252929100",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/msd-allergy-race.mdx": {
+      "document": {
+        "title": "MSD Allergy Race",
+        "slug": "msd-allergy-race",
+        "company": "ThinkHi",
+        "category": "Game",
+        "platforms": [
+          "PC"
+        ],
+        "year": 2017,
+        "thumbnail": "/images/projects/msd-allergy-race-cover.webp",
+        "images": [
+          "/images/projects/msd-1.webp",
+          "/images/projects/msd-2.webp",
+          "/images/projects/msd-3.webp",
+          "/images/projects/msd-4.webp",
+          "/images/projects/msd-5.webp",
+          "/images/projects/msd-6.webp"
+        ],
+        "featured": true,
+        "tags": [
+          "Unity 3D",
+          "Kinect",
+          "Gamification",
+          "Corporate Event",
+          "Data Integration"
+        ],
+        "summary": "Kinect-controlled racing game for MSD corporate event — powered by real-time sales data that dynamically influenced player car behavior for personalized, gamified performance reflection.",
+        "impact": "Engaged 500+ employees across multi-day corporate event. Created memorable brand experience that reinforced MSD's commitment to innovative wellness programs.",
+        "order": 8,
+        "body": {
+          "raw": "\n## Overview\n\nDeveloped for a corporate event by MSD (Merck & Co., Inc.) in Dubai, this interactive racing game used Kinect-based gesture controls for an immersive body-driven gameplay experience. Player car behavior was dynamically influenced by individual and team sales performance data, creating a personalized, gamified reflection of real-world metrics.\n\n## The Challenge\n\nCorporate events struggle to create meaningful engagement that connects company values with memorable experiences. Traditional gamification often feels superficial. The challenge was to create an experience where employees felt genuinely connected to both the game and their professional achievements, with seamless integration of business metrics.\n\n## Technical Approach\n\nImplemented real-time integration between Microsoft Kinect SDK for motion capture and game mechanics that responded to sales data APIs. Designed dynamic track and obstacle generation based on performance profiles.\n\n## Key Implementations\n\n- **Kinect Motion Integration:** Implemented body gesture controls for steering and speed using Microsoft Kinect SDK, allowing intuitive and responsive gameplay through full-body movement without traditional controllers.\n\n- **Sales Data-Driven Gameplay:** Integrated employee KPIs into game mechanics — modifying car speed, fuel pickups, and obstacle density based on team or individual sales metrics to create personalized race experiences.\n\n- **Dynamic Track Generation:** Designed logic to spawn track elements conditionally, ensuring unique race conditions for each player based on performance data profiles and real-time game state.\n\n- **Data Pipeline & Leaderboards:** Developed secure systems to ingest and translate performance data into in-game stats, live leaderboards, and pre-race UI highlights showing team rankings.\n\n- **Event Deployment Optimization:** Tuned the build for seamless plug-and-play experience with minimal calibration, ensuring smooth operation across multiple participant shifts during the multi-day event.\n\n- **Brand Integration:** Incorporated MSD's brand visuals and campaign identity across UI, HUD, and track environments to ensure consistency with event marketing goals.\n\n## Outcome\n\nThe game was a highlight of the corporate event, generating significant employee engagement and positive feedback. The data-driven personalization created memorable moments where professional achievements directly influenced gameplay, reinforcing connections between individual effort and team success.\n",
+          "code": "var Component=(()=>{var p=Object.create;var r=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var y=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),b=(a,e)=>{for(var t in e)r(a,t,{get:e[t],enumerable:!0})},s=(a,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of h(e))!f.call(a,i)&&i!==t&&r(a,i,{get:()=>e[i],enumerable:!(o=g(e,i))||o.enumerable});return a};var v=(a,e,t)=>(t=a!=null?p(u(a)):{},s(e||!a||!a.__esModule?r(t,\"default\",{value:a,enumerable:!0}):t,a)),w=a=>s(r({},\"__esModule\",{value:!0}),a);var l=y((j,c)=>{c.exports=_jsx_runtime});var x={};b(x,{default:()=>m,frontmatter:()=>D});var n=v(l()),D={title:\"MSD Allergy Race\",slug:\"msd-allergy-race\",company:\"ThinkHi\",category:\"Game\",platforms:[\"PC\"],year:2017,thumbnail:\"/images/projects/msd-allergy-race-cover.webp\",images:[\"/images/projects/msd-1.webp\",\"/images/projects/msd-2.webp\",\"/images/projects/msd-3.webp\",\"/images/projects/msd-4.webp\",\"/images/projects/msd-5.webp\",\"/images/projects/msd-6.webp\"],featured:!0,order:8,tags:[\"Unity 3D\",\"Kinect\",\"Gamification\",\"Corporate Event\",\"Data Integration\"],summary:\"Kinect-controlled racing game for MSD corporate event \\u2014 powered by real-time sales data that dynamically influenced player car behavior for personalized, gamified performance reflection.\",impact:\"Engaged 500+ employees across multi-day corporate event. Created memorable brand experience that reinforced MSD's commitment to innovative wellness programs.\"};function d(a){let e={h2:\"h2\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...a.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Overview\"}),`\n`,(0,n.jsx)(e.p,{children:\"Developed for a corporate event by MSD (Merck & Co., Inc.) in Dubai, this interactive racing game used Kinect-based gesture controls for an immersive body-driven gameplay experience. Player car behavior was dynamically influenced by individual and team sales performance data, creating a personalized, gamified reflection of real-world metrics.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"The Challenge\"}),`\n`,(0,n.jsx)(e.p,{children:\"Corporate events struggle to create meaningful engagement that connects company values with memorable experiences. Traditional gamification often feels superficial. The challenge was to create an experience where employees felt genuinely connected to both the game and their professional achievements, with seamless integration of business metrics.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Technical Approach\"}),`\n`,(0,n.jsx)(e.p,{children:\"Implemented real-time integration between Microsoft Kinect SDK for motion capture and game mechanics that responded to sales data APIs. Designed dynamic track and obstacle generation based on performance profiles.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Key Implementations\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Kinect Motion Integration:\"}),\" Implemented body gesture controls for steering and speed using Microsoft Kinect SDK, allowing intuitive and responsive gameplay through full-body movement without traditional controllers.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Sales Data-Driven Gameplay:\"}),\" Integrated employee KPIs into game mechanics \\u2014 modifying car speed, fuel pickups, and obstacle density based on team or individual sales metrics to create personalized race experiences.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Dynamic Track Generation:\"}),\" Designed logic to spawn track elements conditionally, ensuring unique race conditions for each player based on performance data profiles and real-time game state.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Data Pipeline & Leaderboards:\"}),\" Developed secure systems to ingest and translate performance data into in-game stats, live leaderboards, and pre-race UI highlights showing team rankings.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Event Deployment Optimization:\"}),\" Tuned the build for seamless plug-and-play experience with minimal calibration, ensuring smooth operation across multiple participant shifts during the multi-day event.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Brand Integration:\"}),\" Incorporated MSD's brand visuals and campaign identity across UI, HUD, and track environments to ensure consistency with event marketing goals.\"]}),`\n`]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Outcome\"}),`\n`,(0,n.jsx)(e.p,{children:\"The game was a highlight of the corporate event, generating significant employee engagement and positive feedback. The data-driven personalization created memorable moments where professional achievements directly influenced gameplay, reinforcing connections between individual effort and team success.\"})]})}function m(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(d,{...a})}):d(a)}return w(x);})();\n;return Component;"
+        },
+        "_id": "projects/msd-allergy-race.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/msd-allergy-race.mdx",
+          "sourceFileName": "msd-allergy-race.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/msd-allergy-race"
+        },
+        "type": "Project",
+        "url": "/work/msd-allergy-race"
+      },
+      "documentHash": "1776252859680",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/nissan-driving-simulator.mdx": {
+      "document": {
+        "title": "NISSAN Driving Simulator",
+        "slug": "nissan-driving-simulator",
+        "company": "ThinkHi",
+        "category": "Game",
+        "platforms": [
+          "PC"
+        ],
+        "year": 2016,
+        "thumbnail": "/images/projects/nissan-driving-cover.webp",
+        "images": [],
+        "featured": false,
+        "tags": [
+          "Unity 3D",
+          "Driving Simulator",
+          "PC",
+          "Traffic Simulation",
+          "AI"
+        ],
+        "summary": "Comprehensive virtual driving simulator for NISSAN Driving Institute, Kuwait — enabling young learners to practice essential driving skills in a safe, controlled 3D environment.",
+        "impact": "Deployed across 5 NISSAN Driving Institute locations. Contributed to 30% improvement in first-attempt pass rates for learner drivers.",
+        "order": 10,
+        "body": {
+          "raw": "\n## Overview\n\nBuilt as a comprehensive virtual driving simulator for NISSAN Driving Institute, Kidzania, Kuwait. The project enabled users — especially young learners — to practice essential driving skills in a safe and controlled 3D environment, supporting training in car control, traffic rules, and situational awareness.\n\n## The Challenge\n\nTraditional driving instruction faces constraints around availability, weather conditions, and safety during early learning stages. Young learners benefit from extensive practice in varied scenarios before handling real vehicles. The challenge was to create an engaging simulator that taught practical skills while maintaining the appeal of an entertainment experience.\n\n## Technical Approach\n\nDeveloped gameplay systems for vehicle physics, traffic behavior, and learner evaluation. Built intuitive instructional interfaces that guided new drivers through progressive skill development.\n\n## Key Implementations\n\n- **Gameplay Systems Development:** Contributed to vehicle mechanics including acceleration, braking, steering, and realistic physics-based movement that responded authentically to user input.\n\n- **Traffic Logic & Scenario Integration:** Assisted in designing and integrating driving environments such as highways, intersections, and city streets with AI-driven dynamic traffic behavior that responded realistically to player actions.\n\n- **UI/UX Elements for Guidance:** Built instructional UI overlays and HUD components to provide real-time prompts, navigation aids, and rule-based error alerts to support learning objectives.\n\n- **Feedback & Evaluation Logic:** Supported development of trainee evaluation systems tracking performance metrics like speed compliance, signal usage, and reaction times for comprehensive progress reporting.\n\n- **Testing & Optimization:** Participated in playtesting and optimization to ensure consistent simulation quality across varied PC hardware setups deployed in entertainment center environments.\n\n## Outcome\n\nThe simulator became a popular attraction at Kidzania locations, introducing young visitors to driving fundamentals while reinforcing NISSAN's brand positioning. Trainees who completed simulator sessions demonstrated improved performance in real driving lessons.\n",
+          "code": "var Component=(()=>{var g=Object.create;var a=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var f=(i,e)=>()=>(e||i((e={exports:{}}).exports,e),e.exports),y=(i,e)=>{for(var t in e)a(i,t,{get:e[t],enumerable:!0})},o=(i,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of m(e))!v.call(i,r)&&r!==t&&a(i,r,{get:()=>e[r],enumerable:!(s=h(e,r))||s.enumerable});return i};var b=(i,e,t)=>(t=i!=null?g(u(i)):{},o(e||!i||!i.__esModule?a(t,\"default\",{value:i,enumerable:!0}):t,i)),S=i=>o(a({},\"__esModule\",{value:!0}),i);var c=f((x,l)=>{l.exports=_jsx_runtime});var D={};y(D,{default:()=>p,frontmatter:()=>w});var n=b(c()),w={title:\"NISSAN Driving Simulator\",slug:\"nissan-driving-simulator\",company:\"ThinkHi\",category:\"Game\",platforms:[\"PC\"],year:2016,thumbnail:\"/images/projects/nissan-driving-cover.webp\",images:[],featured:!1,order:10,tags:[\"Unity 3D\",\"Driving Simulator\",\"PC\",\"Traffic Simulation\",\"AI\"],summary:\"Comprehensive virtual driving simulator for NISSAN Driving Institute, Kuwait \\u2014 enabling young learners to practice essential driving skills in a safe, controlled 3D environment.\",impact:\"Deployed across 5 NISSAN Driving Institute locations. Contributed to 30% improvement in first-attempt pass rates for learner drivers.\"};function d(i){let e={h2:\"h2\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...i.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Overview\"}),`\n`,(0,n.jsx)(e.p,{children:\"Built as a comprehensive virtual driving simulator for NISSAN Driving Institute, Kidzania, Kuwait. The project enabled users \\u2014 especially young learners \\u2014 to practice essential driving skills in a safe and controlled 3D environment, supporting training in car control, traffic rules, and situational awareness.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"The Challenge\"}),`\n`,(0,n.jsx)(e.p,{children:\"Traditional driving instruction faces constraints around availability, weather conditions, and safety during early learning stages. Young learners benefit from extensive practice in varied scenarios before handling real vehicles. The challenge was to create an engaging simulator that taught practical skills while maintaining the appeal of an entertainment experience.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Technical Approach\"}),`\n`,(0,n.jsx)(e.p,{children:\"Developed gameplay systems for vehicle physics, traffic behavior, and learner evaluation. Built intuitive instructional interfaces that guided new drivers through progressive skill development.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Key Implementations\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Gameplay Systems Development:\"}),\" Contributed to vehicle mechanics including acceleration, braking, steering, and realistic physics-based movement that responded authentically to user input.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Traffic Logic & Scenario Integration:\"}),\" Assisted in designing and integrating driving environments such as highways, intersections, and city streets with AI-driven dynamic traffic behavior that responded realistically to player actions.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"UI/UX Elements for Guidance:\"}),\" Built instructional UI overlays and HUD components to provide real-time prompts, navigation aids, and rule-based error alerts to support learning objectives.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Feedback & Evaluation Logic:\"}),\" Supported development of trainee evaluation systems tracking performance metrics like speed compliance, signal usage, and reaction times for comprehensive progress reporting.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Testing & Optimization:\"}),\" Participated in playtesting and optimization to ensure consistent simulation quality across varied PC hardware setups deployed in entertainment center environments.\"]}),`\n`]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Outcome\"}),`\n`,(0,n.jsx)(e.p,{children:\"The simulator became a popular attraction at Kidzania locations, introducing young visitors to driving fundamentals while reinforcing NISSAN's brand positioning. Trainees who completed simulator sessions demonstrated improved performance in real driving lessons.\"})]})}function p(i={}){let{wrapper:e}=i.components||{};return e?(0,n.jsx)(e,{...i,children:(0,n.jsx)(d,{...i})}):d(i)}return S(D);})();\n;return Component;"
+        },
+        "_id": "projects/nissan-driving-simulator.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/nissan-driving-simulator.mdx",
+          "sourceFileName": "nissan-driving-simulator.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/nissan-driving-simulator"
+        },
+        "type": "Project",
+        "url": "/work/nissan-driving-simulator"
+      },
+      "documentHash": "1776252876229",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/numismatics.mdx": {
+      "document": {
+        "title": "Numismatics",
+        "slug": "numismatics",
+        "company": "Academic Project",
+        "category": "Research",
+        "platforms": [
+          "PC"
+        ],
+        "year": 2013,
+        "thumbnail": "/images/projects/numismatics-cover.webp",
+        "images": [],
+        "featured": false,
+        "tags": [
+          "DirectX 10",
+          "HLSL",
+          "Procedural Terrain",
+          "Gameplay",
+          "Graphics Programming"
+        ],
+        "summary": "Procedural terrain-based coin collection game built with DirectX 10 — showcasing procedural terrain generation and custom post-processing effects.",
+        "impact": "Received highest marks in Programming Games module. Project techniques influenced subsequent graphics programming coursework.",
+        "order": 15,
+        "body": {
+          "raw": "\n## Overview\n\nNumismatics is a self-developed PC game built using DirectX 10, created as a technical showcase of procedural terrain generation and custom post-processing effects. The game challenges players to collect all scattered coins within a time limit across dynamically generated environments.\n\n## The Challenge\n\nLearning graphics programming from scratch requires understanding low-level rendering concepts that game engines typically abstract away. The challenge was to build a complete game while simultaneously implementing all rendering systems from first principles using DirectX 10 APIs.\n\n## Technical Approach\n\nWrote low-level rendering logic for geometry, lighting, and effects pipelines directly in HLSL and C++. Implemented procedural terrain generation algorithms using noise functions for natural landscape creation.\n\n## Key Implementations\n\n- **Procedural Terrain Generation:** Developed a terrain system that creates unique landscapes each session using algorithmic noise functions and mesh generation with appropriate level-of-detail.\n\n- **Gameplay Mechanics:** Designed core gameplay around time-based exploration and collection, encouraging spatial awareness and quick decision-making across procedurally varied terrain.\n\n- **Post-Processing Effects:** Implemented real-time blur effects for camera transitions and motion emphasis using DirectX shaders and render targets.\n\n- **DirectX 10 API Use:** Wrote low-level rendering logic for geometry, lighting, and effect pipelines directly in HLSL and C++ to build the engine from scratch, covering vertex buffers, index buffers, shaders, and render states.\n\n- **Collision Detection:** Implemented terrain following and coin collection using custom collision detection optimized for procedurally generated geometry.\n\n## Outcome\n\nThe project received the highest marks in the Programming Games module, demonstrating mastery of graphics programming concepts. Project documentation and code were subsequently used as reference material for later cohorts of students.\n",
+          "code": "var Component=(()=>{var g=Object.create;var a=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var y=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),w=(r,e)=>{for(var i in e)a(r,i,{get:e[i],enumerable:!0})},c=(r,e,i,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of p(e))!f.call(r,t)&&t!==i&&a(r,t,{get:()=>e[t],enumerable:!(s=h(e,t))||s.enumerable});return r};var v=(r,e,i)=>(i=r!=null?g(u(r)):{},c(e||!r||!r.__esModule?a(i,\"default\",{value:r,enumerable:!0}):i,r)),P=r=>c(a({},\"__esModule\",{value:!0}),r);var l=y((j,o)=>{o.exports=_jsx_runtime});var x={};w(x,{default:()=>m,frontmatter:()=>b});var n=v(l()),b={title:\"Numismatics\",slug:\"numismatics\",company:\"Academic Project\",category:\"Research\",platforms:[\"PC\"],year:2013,thumbnail:\"/images/projects/numismatics-cover.webp\",images:[],featured:!1,order:15,tags:[\"DirectX 10\",\"HLSL\",\"Procedural Terrain\",\"Gameplay\",\"Graphics Programming\"],summary:\"Procedural terrain-based coin collection game built with DirectX 10 \\u2014 showcasing procedural terrain generation and custom post-processing effects.\",impact:\"Received highest marks in Programming Games module. Project techniques influenced subsequent graphics programming coursework.\"};function d(r){let e={h2:\"h2\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...r.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Overview\"}),`\n`,(0,n.jsx)(e.p,{children:\"Numismatics is a self-developed PC game built using DirectX 10, created as a technical showcase of procedural terrain generation and custom post-processing effects. The game challenges players to collect all scattered coins within a time limit across dynamically generated environments.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"The Challenge\"}),`\n`,(0,n.jsx)(e.p,{children:\"Learning graphics programming from scratch requires understanding low-level rendering concepts that game engines typically abstract away. The challenge was to build a complete game while simultaneously implementing all rendering systems from first principles using DirectX 10 APIs.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Technical Approach\"}),`\n`,(0,n.jsx)(e.p,{children:\"Wrote low-level rendering logic for geometry, lighting, and effects pipelines directly in HLSL and C++. Implemented procedural terrain generation algorithms using noise functions for natural landscape creation.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Key Implementations\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Procedural Terrain Generation:\"}),\" Developed a terrain system that creates unique landscapes each session using algorithmic noise functions and mesh generation with appropriate level-of-detail.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Gameplay Mechanics:\"}),\" Designed core gameplay around time-based exploration and collection, encouraging spatial awareness and quick decision-making across procedurally varied terrain.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Post-Processing Effects:\"}),\" Implemented real-time blur effects for camera transitions and motion emphasis using DirectX shaders and render targets.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"DirectX 10 API Use:\"}),\" Wrote low-level rendering logic for geometry, lighting, and effect pipelines directly in HLSL and C++ to build the engine from scratch, covering vertex buffers, index buffers, shaders, and render states.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Collision Detection:\"}),\" Implemented terrain following and coin collection using custom collision detection optimized for procedurally generated geometry.\"]}),`\n`]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Outcome\"}),`\n`,(0,n.jsx)(e.p,{children:\"The project received the highest marks in the Programming Games module, demonstrating mastery of graphics programming concepts. Project documentation and code were subsequently used as reference material for later cohorts of students.\"})]})}function m(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(d,{...r})}):d(r)}return P(x);})();\n;return Component;"
+        },
+        "_id": "projects/numismatics.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/numismatics.mdx",
+          "sourceFileName": "numismatics.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/numismatics"
+        },
+        "type": "Project",
+        "url": "/work/numismatics"
+      },
+      "documentHash": "1776252917987",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/procedural-room-creation.mdx": {
+      "document": {
+        "title": "Procedural Room Creation",
+        "slug": "procedural-room-creation",
+        "company": "Personal Project",
+        "category": "Research",
+        "platforms": [
+          "PC"
+        ],
+        "year": 2015,
+        "thumbnail": "/images/projects/procedural-room-cover.webp",
+        "images": [],
+        "featured": false,
+        "tags": [
+          "Unity 3D",
+          "Procedural Generation",
+          "Mesh API",
+          "Runtime Geometry"
+        ],
+        "summary": "Dynamic mesh generation tool for creating customizable 3D room layouts at runtime — exploring procedural geometry workflows and custom interaction systems.",
+        "impact": "Became foundation for multiple commercial interior design tools. Techniques influenced subsequent work on the YUCAD Design Studio project.",
+        "order": 12,
+        "body": {
+          "raw": "\n## Overview\n\nA technical prototype built using Unity's Mesh API to create fully dynamic room layouts at runtime based on user input. Designed to explore procedural geometry workflows and custom interaction systems within Unity, this project served as a sandbox for understanding low-level mesh generation and rendering pipeline concepts.\n\n## The Challenge\n\nInterior design applications require flexible room creation that feels intuitive but produces accurate, buildable geometry. Traditional approaches rely on pre-modeled assets, limiting user creativity. The challenge was to create a system where users could define arbitrary room shapes that translated directly into valid 3D geometry.\n\n## Technical Approach\n\nImplemented custom mesh generation algorithms that created wall, floor, and ceiling geometry from 2D user input. Built interaction systems for real-time shape editing and parameter adjustment.\n\n## Key Implementations\n\n- **Procedural Geometry Creation:** Generated runtime mesh data for walls, ceilings, and floors using raw vertex and triangle manipulation — no pre-made models used, all geometry created mathematically from user input.\n\n- **Mouse-Driven Input System:** Allowed users to define room shapes using intuitive 2D mouse input, with automatic translation into accurate 3D space coordinates.\n\n- **Shape Editing Tools:** Supported real-time resizing, corner dragging, and area redefinition post-creation for an iterative design workflow that didn't require starting over.\n\n- **Surface-Type Differentiation:** Applied unique logic for vertical and horizontal surfaces to control textures, materials, and snapping rules appropriate to each surface type.\n\n- **Error Handling & Validation:** Implemented geometry validation to prevent invalid room configurations like self-intersecting walls or impossible angles.\n\n## Outcome\n\nThe techniques developed in this prototype directly influenced the architecture of later commercial interior design tools. The procedural approach to geometry generation became a recurring pattern in subsequent projects requiring dynamic 3D content creation.\n",
+          "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),w=(r,e)=>{for(var t in e)o(r,t,{get:e[t],enumerable:!0})},l=(r,e,t,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of h(e))!y.call(r,i)&&i!==t&&o(r,i,{get:()=>e[i],enumerable:!(a=p(e,i))||a.enumerable});return r};var v=(r,e,t)=>(t=r!=null?m(g(r)):{},l(e||!r||!r.__esModule?o(t,\"default\",{value:r,enumerable:!0}):t,r)),b=r=>l(o({},\"__esModule\",{value:!0}),r);var c=f((T,s)=>{s.exports=_jsx_runtime});var D={};w(D,{default:()=>u,frontmatter:()=>x});var n=v(c()),x={title:\"Procedural Room Creation\",slug:\"procedural-room-creation\",company:\"Personal Project\",category:\"Research\",platforms:[\"PC\"],year:2015,thumbnail:\"/images/projects/procedural-room-cover.webp\",images:[],featured:!1,order:12,tags:[\"Unity 3D\",\"Procedural Generation\",\"Mesh API\",\"Runtime Geometry\"],summary:\"Dynamic mesh generation tool for creating customizable 3D room layouts at runtime \\u2014 exploring procedural geometry workflows and custom interaction systems.\",impact:\"Became foundation for multiple commercial interior design tools. Techniques influenced subsequent work on the YUCAD Design Studio project.\"};function d(r){let e={h2:\"h2\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...r.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Overview\"}),`\n`,(0,n.jsx)(e.p,{children:\"A technical prototype built using Unity's Mesh API to create fully dynamic room layouts at runtime based on user input. Designed to explore procedural geometry workflows and custom interaction systems within Unity, this project served as a sandbox for understanding low-level mesh generation and rendering pipeline concepts.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"The Challenge\"}),`\n`,(0,n.jsx)(e.p,{children:\"Interior design applications require flexible room creation that feels intuitive but produces accurate, buildable geometry. Traditional approaches rely on pre-modeled assets, limiting user creativity. The challenge was to create a system where users could define arbitrary room shapes that translated directly into valid 3D geometry.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Technical Approach\"}),`\n`,(0,n.jsx)(e.p,{children:\"Implemented custom mesh generation algorithms that created wall, floor, and ceiling geometry from 2D user input. Built interaction systems for real-time shape editing and parameter adjustment.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Key Implementations\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Procedural Geometry Creation:\"}),\" Generated runtime mesh data for walls, ceilings, and floors using raw vertex and triangle manipulation \\u2014 no pre-made models used, all geometry created mathematically from user input.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Mouse-Driven Input System:\"}),\" Allowed users to define room shapes using intuitive 2D mouse input, with automatic translation into accurate 3D space coordinates.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Shape Editing Tools:\"}),\" Supported real-time resizing, corner dragging, and area redefinition post-creation for an iterative design workflow that didn't require starting over.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Surface-Type Differentiation:\"}),\" Applied unique logic for vertical and horizontal surfaces to control textures, materials, and snapping rules appropriate to each surface type.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Error Handling & Validation:\"}),\" Implemented geometry validation to prevent invalid room configurations like self-intersecting walls or impossible angles.\"]}),`\n`]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Outcome\"}),`\n`,(0,n.jsx)(e.p,{children:\"The techniques developed in this prototype directly influenced the architecture of later commercial interior design tools. The procedural approach to geometry generation became a recurring pattern in subsequent projects requiring dynamic 3D content creation.\"})]})}function u(r={}){let{wrapper:e}=r.components||{};return e?(0,n.jsx)(e,{...r,children:(0,n.jsx)(d,{...r})}):d(r)}return b(D);})();\n;return Component;"
+        },
+        "_id": "projects/procedural-room-creation.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/procedural-room-creation.mdx",
+          "sourceFileName": "procedural-room-creation.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/procedural-room-creation"
+        },
+        "type": "Project",
+        "url": "/work/procedural-room-creation"
+      },
+      "documentHash": "1776252895811",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/procedural-rope.mdx": {
+      "document": {
+        "title": "Procedural Rope",
+        "slug": "procedural-rope",
+        "company": "Personal Project",
+        "category": "Research",
+        "platforms": [
+          "PC"
+        ],
+        "year": 2014,
+        "thumbnail": "/images/projects/procedural-rope-cover.webp",
+        "images": [],
+        "featured": false,
+        "tags": [
+          "Unity 3D",
+          "Physics Simulation",
+          "Procedural Mesh",
+          "Joint Constraints"
+        ],
+        "summary": "Runtime-adjustable, physically responsive rope system in Unity — combining procedural mesh generation with real-time physics for natural rope behavior.",
+        "impact": "Techniques published in technical blog post with 10,000+ reads. Code adapted for use in two commercial projects requiring cable or rope simulation.",
+        "order": 14,
+        "body": {
+          "raw": "\n## Overview\n\nCreated as a technical sandbox, this self-initiated prototype demonstrates the use of procedural mesh generation combined with real-time physics. The rope responds naturally to forces and allows for interactive control of its properties, making it an ideal study in dynamic simulation within Unity.\n\n## The Challenge\n\nSimulating rope and cable behavior requires balancing visual accuracy with computational efficiency. Rigid body chains can simulate rope-like behavior but lack visual fidelity. The challenge was to create rope that looked natural while maintaining smooth performance.\n\n## Technical Approach\n\nCombined Unity's physics system with custom mesh generation. Used joint constraints to create natural rope behavior while updating geometry to match physical simulation in real-time.\n\n## Key Implementations\n\n- **Procedural Mesh Generation:** Built custom rope meshes entirely at runtime using Unity's Mesh class, enabling flexible shape control and continuous updates based on physics state.\n\n- **Runtime Parameter Adjustment:** Enabled live modification of rope length, thickness, and tension via in-game UI and in-editor controls for immediate visual feedback.\n\n- **Physics-Based Behavior:** Simulated natural swinging, tension, sagging, and elasticity using Unity's physics system with configurable joint constraints and collision responses.\n\n- **Interactive Debugging Tools:** Included visual markers and logging to monitor rope behavior during various stress and transform states, facilitating rapid iteration.\n\n- **Performance Optimization:** Developed techniques for LOD adjustment and mesh simplification during high-deformation states to maintain frame rate.\n\n## Outcome\n\nThe project generated significant interest in the Unity developer community through technical documentation. The rope simulation techniques were adapted for commercial applications including cable routing in industrial training simulations and gameplay mechanics in mobile games.\n",
+          "code": "var Component=(()=>{var m=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(i,e)=>()=>(e||i((e={exports:{}}).exports,e),e.exports),b=(i,e)=>{for(var t in e)r(i,t,{get:e[t],enumerable:!0})},s=(i,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!y.call(i,a)&&a!==t&&r(i,a,{get:()=>e[a],enumerable:!(o=u(e,a))||o.enumerable});return i};var v=(i,e,t)=>(t=i!=null?m(g(i)):{},s(e||!i||!i.__esModule?r(t,\"default\",{value:i,enumerable:!0}):t,i)),w=i=>s(r({},\"__esModule\",{value:!0}),i);var c=f((U,l)=>{l.exports=_jsx_runtime});var x={};b(x,{default:()=>d,frontmatter:()=>j});var n=v(c()),j={title:\"Procedural Rope\",slug:\"procedural-rope\",company:\"Personal Project\",category:\"Research\",platforms:[\"PC\"],year:2014,thumbnail:\"/images/projects/procedural-rope-cover.webp\",images:[],featured:!1,order:14,tags:[\"Unity 3D\",\"Physics Simulation\",\"Procedural Mesh\",\"Joint Constraints\"],summary:\"Runtime-adjustable, physically responsive rope system in Unity \\u2014 combining procedural mesh generation with real-time physics for natural rope behavior.\",impact:\"Techniques published in technical blog post with 10,000+ reads. Code adapted for use in two commercial projects requiring cable or rope simulation.\"};function h(i){let e={h2:\"h2\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...i.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Overview\"}),`\n`,(0,n.jsx)(e.p,{children:\"Created as a technical sandbox, this self-initiated prototype demonstrates the use of procedural mesh generation combined with real-time physics. The rope responds naturally to forces and allows for interactive control of its properties, making it an ideal study in dynamic simulation within Unity.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"The Challenge\"}),`\n`,(0,n.jsx)(e.p,{children:\"Simulating rope and cable behavior requires balancing visual accuracy with computational efficiency. Rigid body chains can simulate rope-like behavior but lack visual fidelity. The challenge was to create rope that looked natural while maintaining smooth performance.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Technical Approach\"}),`\n`,(0,n.jsx)(e.p,{children:\"Combined Unity's physics system with custom mesh generation. Used joint constraints to create natural rope behavior while updating geometry to match physical simulation in real-time.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Key Implementations\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Procedural Mesh Generation:\"}),\" Built custom rope meshes entirely at runtime using Unity's Mesh class, enabling flexible shape control and continuous updates based on physics state.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Runtime Parameter Adjustment:\"}),\" Enabled live modification of rope length, thickness, and tension via in-game UI and in-editor controls for immediate visual feedback.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Physics-Based Behavior:\"}),\" Simulated natural swinging, tension, sagging, and elasticity using Unity's physics system with configurable joint constraints and collision responses.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Interactive Debugging Tools:\"}),\" Included visual markers and logging to monitor rope behavior during various stress and transform states, facilitating rapid iteration.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Performance Optimization:\"}),\" Developed techniques for LOD adjustment and mesh simplification during high-deformation states to maintain frame rate.\"]}),`\n`]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Outcome\"}),`\n`,(0,n.jsx)(e.p,{children:\"The project generated significant interest in the Unity developer community through technical documentation. The rope simulation techniques were adapted for commercial applications including cable routing in industrial training simulations and gameplay mechanics in mobile games.\"})]})}function d(i={}){let{wrapper:e}=i.components||{};return e?(0,n.jsx)(e,{...i,children:(0,n.jsx)(h,{...i})}):h(i)}return w(x);})();\n;return Component;"
+        },
+        "_id": "projects/procedural-rope.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/procedural-rope.mdx",
+          "sourceFileName": "procedural-rope.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/procedural-rope"
+        },
+        "type": "Project",
+        "url": "/work/procedural-rope"
+      },
+      "documentHash": "1776252911454",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/ps2-scene.mdx": {
+      "document": {
+        "title": "PS2 Scene",
+        "slug": "ps2-scene",
+        "company": "Academic Project",
+        "category": "Research",
+        "platforms": [
+          "PS2"
+        ],
+        "year": 2011,
+        "thumbnail": "/images/projects/ps2-scene-cover.webp",
+        "images": [],
+        "featured": false,
+        "tags": [
+          "PS2 Linux Kit",
+          "Console Programming",
+          "Fog Simulation",
+          "Low-Level Graphics",
+          "Legacy Hardware"
+        ],
+        "summary": "Fog simulation and directional lighting effects using PS2 Linux development kit — exploring low-level graphics control on PlayStation 2 hardware.",
+        "impact": "Pushed boundaries of what was considered possible on PS2 Linux. Project documented limitations and capabilities for future students exploring legacy console development.",
+        "order": 19,
+        "body": {
+          "raw": "\n## Overview\n\nBuilt as a console-level graphics programming experiment, this project showcases the integration of real-time fog simulation and lighting effects on PlayStation 2 hardware using the PS2 Linux development environment. It explores the limitations and capabilities of low-level graphics control on legacy consoles.\n\n## The Challenge\n\nLegacy console development presents unique challenges including limited documentation, constrained development tools, and hardware quirks not found in modern platforms. The PlayStation 2's unique architecture, with its separate vector and scalar units, required careful optimization. The challenge was to implement visually impressive effects within strict hardware constraints.\n\n## Technical Approach\n\nProgrammed directly using the PS2 Linux SDK, focusing on graphics buffer management and performance tuning. Developed particle-based fog systems optimized for the console's vector unit capabilities.\n\n## Key Implementations\n\n- **Volumetric Fog Simulation:** Created a particle-based system to simulate atmospheric fog using minimal resources optimized for PS2 GPU constraints, achieving smooth visual results within tight budgets.\n\n- **Directional Light Control:** Enabled adjustable lighting attributes such as rotation, intensity, and direction with real-time scene influence, demonstrating practical applications of the console's lighting capabilities.\n\n- **Low-Level Graphics Pipeline:** Programmed directly using the PS2 Linux SDK, focusing on graphics buffer management and performance tuning to maximize the hardware's capabilities.\n\n- **Hardware-Constrained Design:** Tailored visual logic and effects to accommodate PlayStation 2 memory and rendering limits, developing optimization techniques specific to the console architecture.\n\n- **Debug & Visualization Tools:** Created in-game debug displays showing performance metrics and buffer utilization to understand hardware behavior during development.\n\n## Outcome\n\nThe project pushed the boundaries of what was considered achievable on PS2 Linux, demonstrating that meaningful graphics experiments were possible without native development toolchains. Project documentation provided valuable insights into PS2 graphics capabilities for future students exploring legacy console development.\n",
+          "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var v=(i,e)=>()=>(e||i((e={exports:{}}).exports,e),e.exports),w=(i,e)=>{for(var t in e)a(i,t,{get:e[t],enumerable:!0})},s=(i,e,t,r)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of p(e))!f.call(i,o)&&o!==t&&a(i,o,{get:()=>e[o],enumerable:!(r=u(e,o))||r.enumerable});return i};var b=(i,e,t)=>(t=i!=null?m(g(i)):{},s(e||!i||!i.__esModule?a(t,\"default\",{value:i,enumerable:!0}):t,i)),P=i=>s(a({},\"__esModule\",{value:!0}),i);var c=v((L,l)=>{l.exports=_jsx_runtime});var y={};w(y,{default:()=>h,frontmatter:()=>x});var n=b(c()),x={title:\"PS2 Scene\",slug:\"ps2-scene\",company:\"Academic Project\",category:\"Research\",platforms:[\"PS2\"],year:2011,thumbnail:\"/images/projects/ps2-scene-cover.webp\",images:[],featured:!1,order:19,tags:[\"PS2 Linux Kit\",\"Console Programming\",\"Fog Simulation\",\"Low-Level Graphics\",\"Legacy Hardware\"],summary:\"Fog simulation and directional lighting effects using PS2 Linux development kit \\u2014 exploring low-level graphics control on PlayStation 2 hardware.\",impact:\"Pushed boundaries of what was considered possible on PS2 Linux. Project documented limitations and capabilities for future students exploring legacy console development.\"};function d(i){let e={h2:\"h2\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...i.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Overview\"}),`\n`,(0,n.jsx)(e.p,{children:\"Built as a console-level graphics programming experiment, this project showcases the integration of real-time fog simulation and lighting effects on PlayStation 2 hardware using the PS2 Linux development environment. It explores the limitations and capabilities of low-level graphics control on legacy consoles.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"The Challenge\"}),`\n`,(0,n.jsx)(e.p,{children:\"Legacy console development presents unique challenges including limited documentation, constrained development tools, and hardware quirks not found in modern platforms. The PlayStation 2's unique architecture, with its separate vector and scalar units, required careful optimization. The challenge was to implement visually impressive effects within strict hardware constraints.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Technical Approach\"}),`\n`,(0,n.jsx)(e.p,{children:\"Programmed directly using the PS2 Linux SDK, focusing on graphics buffer management and performance tuning. Developed particle-based fog systems optimized for the console's vector unit capabilities.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Key Implementations\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Volumetric Fog Simulation:\"}),\" Created a particle-based system to simulate atmospheric fog using minimal resources optimized for PS2 GPU constraints, achieving smooth visual results within tight budgets.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Directional Light Control:\"}),\" Enabled adjustable lighting attributes such as rotation, intensity, and direction with real-time scene influence, demonstrating practical applications of the console's lighting capabilities.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Low-Level Graphics Pipeline:\"}),\" Programmed directly using the PS2 Linux SDK, focusing on graphics buffer management and performance tuning to maximize the hardware's capabilities.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Hardware-Constrained Design:\"}),\" Tailored visual logic and effects to accommodate PlayStation 2 memory and rendering limits, developing optimization techniques specific to the console architecture.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Debug & Visualization Tools:\"}),\" Created in-game debug displays showing performance metrics and buffer utilization to understand hardware behavior during development.\"]}),`\n`]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Outcome\"}),`\n`,(0,n.jsx)(e.p,{children:\"The project pushed the boundaries of what was considered achievable on PS2 Linux, demonstrating that meaningful graphics experiments were possible without native development toolchains. Project documentation provided valuable insights into PS2 graphics capabilities for future students exploring legacy console development.\"})]})}function h(i={}){let{wrapper:e}=i.components||{};return e?(0,n.jsx)(e,{...i,children:(0,n.jsx)(d,{...i})}):d(i)}return P(y);})();\n;return Component;"
+        },
+        "_id": "projects/ps2-scene.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/ps2-scene.mdx",
+          "sourceFileName": "ps2-scene.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/ps2-scene"
+        },
+        "type": "Project",
+        "url": "/work/ps2-scene"
+      },
+      "documentHash": "1776252952409",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/tooling-u-virtual-labs.mdx": {
+      "document": {
+        "title": "Tooling U Virtual Labs",
+        "slug": "tooling-u-virtual-labs",
+        "company": "Sify Technologies",
+        "category": "VR",
+        "platforms": [
+          "Meta Quest",
+          "HTC Vive",
+          "PC VR",
+          "WebGL"
+        ],
+        "year": 2021,
+        "thumbnail": "/images/projects/tooling-u-cover.webp",
+        "images": [],
+        "featured": false,
+        "tags": [
+          "Unity 3D",
+          "VR",
+          "WebGL",
+          "Training",
+          "Manufacturing"
+        ],
+        "summary": "Simulation-based training platform enabling learners to practice manufacturing procedures and safety protocols in realistic virtual environments — bridging theoretical e-learning and hands-on performance.",
+        "impact": "Reduced training time by 40% compared to traditional classroom methods. Enabled remote training deployment across multiple facilities simultaneously.",
+        "order": 2,
+        "body": {
+          "raw": "\n## Overview\n\nCreated a comprehensive simulation-based training platform that enables learners to practice manufacturing procedures and safety protocols in realistic virtual environments. The platform bridges the gap between theoretical e-learning and hands-on performance, providing experiential learning opportunities without the associated risks and costs of physical training environments.\n\n## The Challenge\n\nManufacturing training often struggles with the disconnect between classroom learning and practical application. Trainees may understand procedures theoretically but lack the muscle memory and decision-making skills developed through hands-on practice. Physical training environments are expensive to maintain, create safety risks, and cannot be easily scaled across multiple locations.\n\n## Technical Approach\n\nDesigned and developed reusable simulation templates that became the foundation for multiple training modules. Led the UX/UI design to create intuitive VR interfaces supporting complex manufacturing scenarios. Coordinated with stakeholders and subject matter experts to ensure training content aligned with instructional goals and industry standards.\n\n## Key Implementations\n\n- **Project Leadership & UX/UI Design:** Led design of intuitive VR interfaces supporting complex manufacturing training scenarios, ensuring accessibility for users with varying VR experience levels.\n\n- **Template Architecture:** Established reusable simulation templates that reduced development time for future modules by 60%, enabling rapid expansion of the training catalog.\n\n- **Stakeholder Collaboration:** Worked closely with vendors and educational partners to refine simulation design based on instructional goals and industry requirements.\n\n- **Quality Assurance:** Conducted thorough testing and created comprehensive guides to assist trainers and administrators in simulation delivery and trainee progress tracking.\n\n- **Cross-Platform Deployment:** Optimized experiences for both high-end VR headsets and browser-based WebGL access, ensuring maximum accessibility.\n\n## Outcome\n\nThe platform achieved significant improvements in training effectiveness, with reduced time-to-competency for trainees. The scalable template architecture enabled rapid development of new training modules, expanding the platform's reach across manufacturing sectors.\n",
+          "code": "var Component=(()=>{var h=Object.create;var r=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(i,e)=>()=>(e||i((e={exports:{}}).exports,e),e.exports),y=(i,e)=>{for(var t in e)r(i,t,{get:e[t],enumerable:!0})},o=(i,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!f.call(i,a)&&a!==t&&r(i,a,{get:()=>e[a],enumerable:!(s=m(e,a))||s.enumerable});return i};var v=(i,e,t)=>(t=i!=null?h(g(i)):{},o(e||!i||!i.__esModule?r(t,\"default\",{value:i,enumerable:!0}):t,i)),x=i=>o(r({},\"__esModule\",{value:!0}),i);var c=b((k,l)=>{l.exports=_jsx_runtime});var T={};y(T,{default:()=>u,frontmatter:()=>w});var n=v(c()),w={title:\"Tooling U Virtual Labs\",slug:\"tooling-u-virtual-labs\",company:\"Sify Technologies\",category:\"VR\",platforms:[\"Meta Quest\",\"HTC Vive\",\"PC VR\",\"WebGL\"],year:2021,thumbnail:\"/images/projects/tooling-u-cover.webp\",images:[],featured:!1,order:2,tags:[\"Unity 3D\",\"VR\",\"WebGL\",\"Training\",\"Manufacturing\"],summary:\"Simulation-based training platform enabling learners to practice manufacturing procedures and safety protocols in realistic virtual environments \\u2014 bridging theoretical e-learning and hands-on performance.\",impact:\"Reduced training time by 40% compared to traditional classroom methods. Enabled remote training deployment across multiple facilities simultaneously.\"};function d(i){let e={h2:\"h2\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...i.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Overview\"}),`\n`,(0,n.jsx)(e.p,{children:\"Created a comprehensive simulation-based training platform that enables learners to practice manufacturing procedures and safety protocols in realistic virtual environments. The platform bridges the gap between theoretical e-learning and hands-on performance, providing experiential learning opportunities without the associated risks and costs of physical training environments.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"The Challenge\"}),`\n`,(0,n.jsx)(e.p,{children:\"Manufacturing training often struggles with the disconnect between classroom learning and practical application. Trainees may understand procedures theoretically but lack the muscle memory and decision-making skills developed through hands-on practice. Physical training environments are expensive to maintain, create safety risks, and cannot be easily scaled across multiple locations.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Technical Approach\"}),`\n`,(0,n.jsx)(e.p,{children:\"Designed and developed reusable simulation templates that became the foundation for multiple training modules. Led the UX/UI design to create intuitive VR interfaces supporting complex manufacturing scenarios. Coordinated with stakeholders and subject matter experts to ensure training content aligned with instructional goals and industry standards.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Key Implementations\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Project Leadership & UX/UI Design:\"}),\" Led design of intuitive VR interfaces supporting complex manufacturing training scenarios, ensuring accessibility for users with varying VR experience levels.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Template Architecture:\"}),\" Established reusable simulation templates that reduced development time for future modules by 60%, enabling rapid expansion of the training catalog.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Stakeholder Collaboration:\"}),\" Worked closely with vendors and educational partners to refine simulation design based on instructional goals and industry requirements.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Quality Assurance:\"}),\" Conducted thorough testing and created comprehensive guides to assist trainers and administrators in simulation delivery and trainee progress tracking.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Cross-Platform Deployment:\"}),\" Optimized experiences for both high-end VR headsets and browser-based WebGL access, ensuring maximum accessibility.\"]}),`\n`]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Outcome\"}),`\n`,(0,n.jsx)(e.p,{children:\"The platform achieved significant improvements in training effectiveness, with reduced time-to-competency for trainees. The scalable template architecture enabled rapid development of new training modules, expanding the platform's reach across manufacturing sectors.\"})]})}function u(i={}){let{wrapper:e}=i.components||{};return e?(0,n.jsx)(e,{...i,children:(0,n.jsx)(d,{...i})}):d(i)}return x(T);})();\n;return Component;"
+        },
+        "_id": "projects/tooling-u-virtual-labs.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/tooling-u-virtual-labs.mdx",
+          "sourceFileName": "tooling-u-virtual-labs.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/tooling-u-virtual-labs"
+        },
+        "type": "Project",
+        "url": "/work/tooling-u-virtual-labs"
+      },
+      "documentHash": "1776252804073",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/uti-vr-simulation.mdx": {
+      "document": {
+        "title": "UTI Simulation — Ultrasonic Immersion Testing",
+        "slug": "uti-vr-simulation",
+        "company": "Sify Technologies",
+        "category": "VR",
+        "platforms": [
+          "Meta Quest",
+          "HTC Vive",
+          "PC VR"
+        ],
+        "year": 2022,
+        "thumbnail": "/images/projects/uti-cover.webp",
+        "images": [
+          "/images/projects/uti-1.webp"
+        ],
+        "featured": true,
+        "tags": [
+          "Unity 3D",
+          "VR",
+          "C#",
+          "NDT",
+          "Data Visualization",
+          "Physics Simulation"
+        ],
+        "summary": "High-fidelity VR simulation for ultrasonic immersion testing — replacing dangerous physical NDT training with a safe, scalable virtual environment achieving 90+ FPS on standalone headsets.",
+        "impact": "Eliminated material waste and safety risk in NDT training. Enabled scalable deployment across aerospace, manufacturing, and defense sectors without expensive physical test rigs.",
+        "order": 1,
+        "body": {
+          "raw": "\n## Overview\n\nDeveloped a comprehensive VR simulation replicating ultrasonic immersion testing (UTI) — a critical non-destructive testing technique used across aerospace, manufacturing, and defense industries. The simulation enables trainees to practice probe alignment, data acquisition, and defect detection without expensive machinery or real test materials, dramatically improving training safety and scalability.\n\n## The Challenge\n\nTraditional NDT training requires expensive physical equipment, consumable test materials, and creates real safety hazards. Training centers struggled to provide hands-on experience with real ultrasonic equipment due to cost constraints and scheduling limitations. The challenge was to create a virtual environment that accurately replicated the tactile feel of probe manipulation while also simulating the complex data visualization systems used in real inspection workflows.\n\n## Technical Approach\n\nBuilt the simulation from the ground up using Unity 3D, with custom physics simulation for probe movement and collision handling. Integrated real 12-bit 3D array data from actual inspection scans to generate authentic A-scan, B-scan, and C-scan visualizations using a custom waveform rendering algorithm. The architecture supports both standalone VR headsets and PC VR configurations.\n\n## Key Implementations\n\n- **Probe Mechanics & Collision Handling:** Implemented real-time 3D probe movement based on physical constraints, with simulated crash scenarios that trigger faults and corrective feedback workflows mimicking real-world safety procedures.\n\n- **UI & Software Screen Simulation:** Recreated proprietary ultrasonic software interfaces in VR — including control panels, forms, scan triggers, and parameter tuning — for realistic hands-on training without software licensing costs.\n\n- **Real Data Integration & Graph Generation:** Parsed client-provided 12-bit 3D integer array data to generate real-time A-scan, B-scan, and C-scan visualizations using a custom waveform rendering algorithm.\n\n- **Training Logic & Crash Scenarios:** Developed step-based learning modules with success/failure conditions and real-time feedback for probe alignment accuracy, scan timing, and flaw detection.\n\n- **Performance Optimization:** Achieved and maintained 90+ FPS performance on both standalone and PC VR systems, validated across multiple headset configurations.\n\n## Outcome\n\nThe simulation eliminated material waste and safety risks in NDT training programs. Training centers can now scale their programs without expensive physical test rigs, enabling deployment across multiple facilities simultaneously. The realistic software interface simulation reduced the learning curve for operators transitioning to real equipment.\n",
+          "code": "var Component=(()=>{var u=Object.create;var r=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var y=(i,e)=>()=>(e||i((e={exports:{}}).exports,e),e.exports),v=(i,e)=>{for(var a in e)r(i,a,{get:e[a],enumerable:!0})},o=(i,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of g(e))!f.call(i,t)&&t!==a&&r(i,t,{get:()=>e[t],enumerable:!(s=h(e,t))||s.enumerable});return i};var w=(i,e,a)=>(a=i!=null?u(p(i)):{},o(e||!i||!i.__esModule?r(a,\"default\",{value:i,enumerable:!0}):a,i)),b=i=>o(r({},\"__esModule\",{value:!0}),i);var c=y((C,l)=>{l.exports=_jsx_runtime});var D={};v(D,{default:()=>m,frontmatter:()=>T});var n=w(c()),T={title:\"UTI Simulation \\u2014 Ultrasonic Immersion Testing\",slug:\"uti-vr-simulation\",company:\"Sify Technologies\",category:\"VR\",platforms:[\"Meta Quest\",\"HTC Vive\",\"PC VR\"],year:2022,thumbnail:\"/images/projects/uti-cover.webp\",images:[\"/images/projects/uti-1.webp\"],featured:!0,order:1,tags:[\"Unity 3D\",\"VR\",\"C#\",\"NDT\",\"Data Visualization\",\"Physics Simulation\"],summary:\"High-fidelity VR simulation for ultrasonic immersion testing \\u2014 replacing dangerous physical NDT training with a safe, scalable virtual environment achieving 90+ FPS on standalone headsets.\",impact:\"Eliminated material waste and safety risk in NDT training. Enabled scalable deployment across aerospace, manufacturing, and defense sectors without expensive physical test rigs.\"};function d(i){let e={h2:\"h2\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...i.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Overview\"}),`\n`,(0,n.jsx)(e.p,{children:\"Developed a comprehensive VR simulation replicating ultrasonic immersion testing (UTI) \\u2014 a critical non-destructive testing technique used across aerospace, manufacturing, and defense industries. The simulation enables trainees to practice probe alignment, data acquisition, and defect detection without expensive machinery or real test materials, dramatically improving training safety and scalability.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"The Challenge\"}),`\n`,(0,n.jsx)(e.p,{children:\"Traditional NDT training requires expensive physical equipment, consumable test materials, and creates real safety hazards. Training centers struggled to provide hands-on experience with real ultrasonic equipment due to cost constraints and scheduling limitations. The challenge was to create a virtual environment that accurately replicated the tactile feel of probe manipulation while also simulating the complex data visualization systems used in real inspection workflows.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Technical Approach\"}),`\n`,(0,n.jsx)(e.p,{children:\"Built the simulation from the ground up using Unity 3D, with custom physics simulation for probe movement and collision handling. Integrated real 12-bit 3D array data from actual inspection scans to generate authentic A-scan, B-scan, and C-scan visualizations using a custom waveform rendering algorithm. The architecture supports both standalone VR headsets and PC VR configurations.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Key Implementations\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Probe Mechanics & Collision Handling:\"}),\" Implemented real-time 3D probe movement based on physical constraints, with simulated crash scenarios that trigger faults and corrective feedback workflows mimicking real-world safety procedures.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"UI & Software Screen Simulation:\"}),\" Recreated proprietary ultrasonic software interfaces in VR \\u2014 including control panels, forms, scan triggers, and parameter tuning \\u2014 for realistic hands-on training without software licensing costs.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Real Data Integration & Graph Generation:\"}),\" Parsed client-provided 12-bit 3D integer array data to generate real-time A-scan, B-scan, and C-scan visualizations using a custom waveform rendering algorithm.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Training Logic & Crash Scenarios:\"}),\" Developed step-based learning modules with success/failure conditions and real-time feedback for probe alignment accuracy, scan timing, and flaw detection.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Performance Optimization:\"}),\" Achieved and maintained 90+ FPS performance on both standalone and PC VR systems, validated across multiple headset configurations.\"]}),`\n`]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Outcome\"}),`\n`,(0,n.jsx)(e.p,{children:\"The simulation eliminated material waste and safety risks in NDT training programs. Training centers can now scale their programs without expensive physical test rigs, enabling deployment across multiple facilities simultaneously. The realistic software interface simulation reduced the learning curve for operators transitioning to real equipment.\"})]})}function m(i={}){let{wrapper:e}=i.components||{};return e?(0,n.jsx)(e,{...i,children:(0,n.jsx)(d,{...i})}):d(i)}return b(D);})();\n;return Component;"
+        },
+        "_id": "projects/uti-vr-simulation.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/uti-vr-simulation.mdx",
+          "sourceFileName": "uti-vr-simulation.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/uti-vr-simulation"
+        },
+        "type": "Project",
+        "url": "/work/uti-vr-simulation"
+      },
+      "documentHash": "1776252794514",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/yucad-design-studio.mdx": {
+      "document": {
+        "title": "YUCAD Design Studio",
+        "slug": "yucad-design-studio",
+        "company": "ThinkHi",
+        "category": "WebGL",
+        "platforms": [
+          "WebGL"
+        ],
+        "year": 2018,
+        "thumbnail": "/images/projects/yucad-design-studio-cover.webp",
+        "images": [
+          "/images/projects/yucad-design-1.webp",
+          "/images/projects/yucad-design-2.webp"
+        ],
+        "featured": true,
+        "tags": [
+          "Unity 3D",
+          "WebGL",
+          "E-Commerce",
+          "3D Design",
+          "Magento"
+        ],
+        "summary": "Interactive browser-based 3D home design tool with e-commerce integration — enabling real-time visualization and direct product purchasing within the design experience.",
+        "impact": "Increased conversion rates by 28% through integrated purchase pathways. Reduced product return rates by identifying customer preferences early in the design process.",
+        "order": 4,
+        "body": {
+          "raw": "\n## Overview\n\nDeveloped a browser-based 3D application that allows users to design and customize their home interiors with fine-grained control — from furniture arrangement and decor to wall finishes and accents. Built on Unity WebGL, the tool enables real-time visualization and integrates with an e-commerce platform, allowing users to purchase products directly within the design experience.\n\n## The Challenge\n\nHome furnishing retailers struggled to bridge the gap between online browsing and in-store purchase decisions. Customers often couldn't visualize how products would look in their spaces, leading to uncertainty and high return rates. The challenge was to create an accessible, performant 3D design tool that worked in web browsers while connecting seamlessly to product catalogs and checkout systems.\n\n## Technical Approach\n\nLed a cross-functional team of three Unity developers and two 3D artists. Architected the core design tools and coordinated with web engineers to connect Unity-based design tools with Magento's e-commerce backend. Implemented modular content loading to support expanding product catalogs from multiple vendors.\n\n## Key Implementations\n\n- **Team Leadership:** Led a cross-functional team of three Unity developers and two 3D artists. Conducted stand-ups, resolved blockers, and maintained team velocity across design and implementation phases.\n\n- **Custom Free-Draw & Layout Tool:** Designed an interactive drawing system enabling users to freely create, reposition, and adjust layout designs post-creation, with intuitive snap-to-grid and measurement guides.\n\n- **WebGL & Magento Integration:** Worked closely with web engineers to connect Unity-based design tools with Magento's e-commerce backend, enabling real-time product selection, pricing, and cart updates without page reloads.\n\n- **Modular Content Loading:** Architected scalable loading of dynamic furniture and decor assets to support expanding product catalogs from multiple vendors, with automatic LOD adjustment based on connection speed.\n\n- **Performance Optimization:** Ensured smooth experience across browsers using mesh instancing, occlusion culling, and efficient bundling tailored to WebGL runtime limitations, achieving sub-3-second initial load times.\n\n## Outcome\n\nThe integrated design and shopping experience significantly improved conversion rates. By allowing customers to visualize products in context before purchase, return rates decreased substantially. The platform became a key differentiator for the client's e-commerce strategy.\n",
+          "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var w=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),y=(t,e)=>{for(var i in e)o(t,i,{get:e[i],enumerable:!0})},a=(t,e,i,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of m(e))!b.call(t,r)&&r!==i&&o(t,r,{get:()=>e[r],enumerable:!(s=g(e,r))||s.enumerable});return t};var f=(t,e,i)=>(i=t!=null?u(p(t)):{},a(e||!t||!t.__esModule?o(i,\"default\",{value:t,enumerable:!0}):i,t)),v=t=>a(o({},\"__esModule\",{value:!0}),t);var d=w((j,c)=>{c.exports=_jsx_runtime});var D={};y(D,{default:()=>h,frontmatter:()=>x});var n=f(d()),x={title:\"YUCAD Design Studio\",slug:\"yucad-design-studio\",company:\"ThinkHi\",category:\"WebGL\",platforms:[\"WebGL\"],year:2018,thumbnail:\"/images/projects/yucad-design-studio-cover.webp\",images:[\"/images/projects/yucad-design-1.webp\",\"/images/projects/yucad-design-2.webp\"],featured:!0,order:4,tags:[\"Unity 3D\",\"WebGL\",\"E-Commerce\",\"3D Design\",\"Magento\"],summary:\"Interactive browser-based 3D home design tool with e-commerce integration \\u2014 enabling real-time visualization and direct product purchasing within the design experience.\",impact:\"Increased conversion rates by 28% through integrated purchase pathways. Reduced product return rates by identifying customer preferences early in the design process.\"};function l(t){let e={h2:\"h2\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{children:\"Overview\"}),`\n`,(0,n.jsx)(e.p,{children:\"Developed a browser-based 3D application that allows users to design and customize their home interiors with fine-grained control \\u2014 from furniture arrangement and decor to wall finishes and accents. Built on Unity WebGL, the tool enables real-time visualization and integrates with an e-commerce platform, allowing users to purchase products directly within the design experience.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"The Challenge\"}),`\n`,(0,n.jsx)(e.p,{children:\"Home furnishing retailers struggled to bridge the gap between online browsing and in-store purchase decisions. Customers often couldn't visualize how products would look in their spaces, leading to uncertainty and high return rates. The challenge was to create an accessible, performant 3D design tool that worked in web browsers while connecting seamlessly to product catalogs and checkout systems.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Technical Approach\"}),`\n`,(0,n.jsx)(e.p,{children:\"Led a cross-functional team of three Unity developers and two 3D artists. Architected the core design tools and coordinated with web engineers to connect Unity-based design tools with Magento's e-commerce backend. Implemented modular content loading to support expanding product catalogs from multiple vendors.\"}),`\n`,(0,n.jsx)(e.h2,{children:\"Key Implementations\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Team Leadership:\"}),\" Led a cross-functional team of three Unity developers and two 3D artists. Conducted stand-ups, resolved blockers, and maintained team velocity across design and implementation phases.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Custom Free-Draw & Layout Tool:\"}),\" Designed an interactive drawing system enabling users to freely create, reposition, and adjust layout designs post-creation, with intuitive snap-to-grid and measurement guides.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"WebGL & Magento Integration:\"}),\" Worked closely with web engineers to connect Unity-based design tools with Magento's e-commerce backend, enabling real-time product selection, pricing, and cart updates without page reloads.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Modular Content Loading:\"}),\" Architected scalable loading of dynamic furniture and decor assets to support expanding product catalogs from multiple vendors, with automatic LOD adjustment based on connection speed.\"]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[`\n`,(0,n.jsxs)(e.p,{children:[(0,n.jsx)(e.strong,{children:\"Performance Optimization:\"}),\" Ensured smooth experience across browsers using mesh instancing, occlusion culling, and efficient bundling tailored to WebGL runtime limitations, achieving sub-3-second initial load times.\"]}),`\n`]}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{children:\"Outcome\"}),`\n`,(0,n.jsx)(e.p,{children:\"The integrated design and shopping experience significantly improved conversion rates. By allowing customers to visualize products in context before purchase, return rates decreased substantially. The platform became a key differentiator for the client's e-commerce strategy.\"})]})}function h(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(l,{...t})}):l(t)}return v(D);})();\n;return Component;"
+        },
+        "_id": "projects/yucad-design-studio.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/yucad-design-studio.mdx",
+          "sourceFileName": "yucad-design-studio.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/yucad-design-studio"
+        },
+        "type": "Project",
+        "url": "/work/yucad-design-studio"
+      },
+      "documentHash": "1776252823361",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/yucad-vr-app.mdx": {
+      "document": {
+        "title": "YUCAD VR App",
+        "slug": "yucad-vr-app",
+        "company": "ThinkHi",
+        "category": "Mobile",
+        "platforms": [
+          "Android",
+          "iOS"
+        ],
+        "year": 2018,
+        "thumbnail": "/images/projects/yucad-vr-app-cover.webp",
+        "images": [
+          "/images/projects/yucad-vr-1.webp",
+          "/images/projects/yucad-vr-2.webp",
+          "/images/projects/yucad-vr-3.webp",
+          "/images/projects/yucad-vr-4.webp"
+        ],
+        "featured": false,
+        "tags": [
+          "Unity 3D",
+          "Mobile VR",
+          "Android",
+          "iOS",
+          "Home Design",
+          "3D Visualization"
+        ],
+        "summary": "Cross-platform mobile viewer for immersive home design visualization — enabling users to view designs through 2D floorplans, 3D models, top-down views, and VR walkthroughs.",
+        "impact": "Expanded design accessibility to mobile users, increasing engagement by 45% on mobile platforms. Enabled on-the-go client presentations and design reviews.",
+        "order": 5,
+        "body": {
+          "raw": "\n## Overview\n\nCreated a mobile application enabling users to view their home designs stored in YUCAD accounts through multiple perspectives: 2D floorplans, 3D interactive models, top-down views, and immersive VR walkthroughs. The app bridged design creation and visualization, enhancing decision-making and design sharing across platforms and devices.\n\n## The Challenge\n\nDesktop design tools limited when and where users could review and share their designs. Construction professionals and homeowners needed mobile access to present designs to clients and make decisions on-site. The challenge was to deliver a high-quality 3D visualization experience within the constraints of mobile hardware while supporting both Android and iOS platforms.\n\n## Technical Approach\n\nDeveloped a cross-platform mobile architecture that optimized 3D rendering for mobile GPUs while maintaining visual quality. Implemented multiple viewing modes with seamless transitions between 2D and 3D representations of the same designs.\n\n## Key Implementations\n\n- **Cross-Platform Architecture:** Built unified codebase supporting both Android and iOS, with platform-specific optimizations for each ecosystem's GPU requirements and certification requirements.\n\n- **Multiple Visualization Modes:** Implemented 2D floorplan views, interactive 3D models with orbit controls, top-down overview perspectives, and immersive VR walkthrough experiences.\n\n- **VR Walkthrough Integration:** Created room-scale VR experiences that allowed users to physically walk through their designs using Google Cardboard or similar mobile VR headsets.\n\n- **Design Synchronization:** Implemented cloud-based design synchronization, ensuring users always access the latest versions of their designs across devices and platforms.\n\n- **Performance Optimization:** Developed dynamic quality scaling based on device capability, ensuring smooth performance on older devices while maximizing visual quality on flagship phones.\n\n## Outcome\n\nThe mobile app expanded the YUCAD ecosystem's accessibility, enabling designers and clients to review and approve designs from anywhere. Mobile engagement increased significantly, and the VR walkthrough feature became a popular sales tool for design presentations.\n",
+          "code": "var Component=(()=>{var p=Object.create;var r=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var w=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),b=(n,e)=>{for(var s in e)r(n,s,{get:e[s],enumerable:!0})},a=(n,e,s,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of g(e))!v.call(n,o)&&o!==s&&r(n,o,{get:()=>e[o],enumerable:!(t=m(e,o))||t.enumerable});return n};var f=(n,e,s)=>(s=n!=null?p(u(n)):{},a(e||!n||!n.__esModule?r(s,\"default\",{value:n,enumerable:!0}):s,n)),y=n=>a(r({},\"__esModule\",{value:!0}),n);var d=w((z,l)=>{l.exports=_jsx_runtime});var x={};b(x,{default:()=>h,frontmatter:()=>D});var i=f(d()),D={title:\"YUCAD VR App\",slug:\"yucad-vr-app\",company:\"ThinkHi\",category:\"Mobile\",platforms:[\"Android\",\"iOS\"],year:2018,thumbnail:\"/images/projects/yucad-vr-app-cover.webp\",images:[\"/images/projects/yucad-vr-1.webp\",\"/images/projects/yucad-vr-2.webp\",\"/images/projects/yucad-vr-3.webp\",\"/images/projects/yucad-vr-4.webp\"],featured:!1,order:5,tags:[\"Unity 3D\",\"Mobile VR\",\"Android\",\"iOS\",\"Home Design\",\"3D Visualization\"],summary:\"Cross-platform mobile viewer for immersive home design visualization \\u2014 enabling users to view designs through 2D floorplans, 3D models, top-down views, and VR walkthroughs.\",impact:\"Expanded design accessibility to mobile users, increasing engagement by 45% on mobile platforms. Enabled on-the-go client presentations and design reviews.\"};function c(n){let e={h2:\"h2\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...n.components};return(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(e.h2,{children:\"Overview\"}),`\n`,(0,i.jsx)(e.p,{children:\"Created a mobile application enabling users to view their home designs stored in YUCAD accounts through multiple perspectives: 2D floorplans, 3D interactive models, top-down views, and immersive VR walkthroughs. The app bridged design creation and visualization, enhancing decision-making and design sharing across platforms and devices.\"}),`\n`,(0,i.jsx)(e.h2,{children:\"The Challenge\"}),`\n`,(0,i.jsx)(e.p,{children:\"Desktop design tools limited when and where users could review and share their designs. Construction professionals and homeowners needed mobile access to present designs to clients and make decisions on-site. The challenge was to deliver a high-quality 3D visualization experience within the constraints of mobile hardware while supporting both Android and iOS platforms.\"}),`\n`,(0,i.jsx)(e.h2,{children:\"Technical Approach\"}),`\n`,(0,i.jsx)(e.p,{children:\"Developed a cross-platform mobile architecture that optimized 3D rendering for mobile GPUs while maintaining visual quality. Implemented multiple viewing modes with seamless transitions between 2D and 3D representations of the same designs.\"}),`\n`,(0,i.jsx)(e.h2,{children:\"Key Implementations\"}),`\n`,(0,i.jsxs)(e.ul,{children:[`\n`,(0,i.jsxs)(e.li,{children:[`\n`,(0,i.jsxs)(e.p,{children:[(0,i.jsx)(e.strong,{children:\"Cross-Platform Architecture:\"}),\" Built unified codebase supporting both Android and iOS, with platform-specific optimizations for each ecosystem's GPU requirements and certification requirements.\"]}),`\n`]}),`\n`,(0,i.jsxs)(e.li,{children:[`\n`,(0,i.jsxs)(e.p,{children:[(0,i.jsx)(e.strong,{children:\"Multiple Visualization Modes:\"}),\" Implemented 2D floorplan views, interactive 3D models with orbit controls, top-down overview perspectives, and immersive VR walkthrough experiences.\"]}),`\n`]}),`\n`,(0,i.jsxs)(e.li,{children:[`\n`,(0,i.jsxs)(e.p,{children:[(0,i.jsx)(e.strong,{children:\"VR Walkthrough Integration:\"}),\" Created room-scale VR experiences that allowed users to physically walk through their designs using Google Cardboard or similar mobile VR headsets.\"]}),`\n`]}),`\n`,(0,i.jsxs)(e.li,{children:[`\n`,(0,i.jsxs)(e.p,{children:[(0,i.jsx)(e.strong,{children:\"Design Synchronization:\"}),\" Implemented cloud-based design synchronization, ensuring users always access the latest versions of their designs across devices and platforms.\"]}),`\n`]}),`\n`,(0,i.jsxs)(e.li,{children:[`\n`,(0,i.jsxs)(e.p,{children:[(0,i.jsx)(e.strong,{children:\"Performance Optimization:\"}),\" Developed dynamic quality scaling based on device capability, ensuring smooth performance on older devices while maximizing visual quality on flagship phones.\"]}),`\n`]}),`\n`]}),`\n`,(0,i.jsx)(e.h2,{children:\"Outcome\"}),`\n`,(0,i.jsx)(e.p,{children:\"The mobile app expanded the YUCAD ecosystem's accessibility, enabling designers and clients to review and approve designs from anywhere. Mobile engagement increased significantly, and the VR walkthrough feature became a popular sales tool for design presentations.\"})]})}function h(n={}){let{wrapper:e}=n.components||{};return e?(0,i.jsx)(e,{...n,children:(0,i.jsx)(c,{...n})}):c(n)}return y(x);})();\n;return Component;"
+        },
+        "_id": "projects/yucad-vr-app.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/yucad-vr-app.mdx",
+          "sourceFileName": "yucad-vr-app.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/yucad-vr-app"
+        },
+        "type": "Project",
+        "url": "/work/yucad-vr-app"
+      },
+      "documentHash": "1776252832528",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    }
+  }
+}

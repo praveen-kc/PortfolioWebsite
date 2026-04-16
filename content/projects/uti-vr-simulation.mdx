@@ -1,0 +1,44 @@
+---
+title: "UTI Simulation — Ultrasonic Immersion Testing"
+slug: "uti-vr-simulation"
+company: "Sify Technologies"
+category: "VR"
+platforms: ["Meta Quest", "HTC Vive", "PC VR"]
+year: 2022
+thumbnail: "/images/projects/uti-cover.webp"
+images:
+  - "/images/projects/uti-1.webp"
+featured: true
+order: 1
+tags: ["Unity 3D", "VR", "C#", "NDT", "Data Visualization", "Physics Simulation"]
+summary: "High-fidelity VR simulation for ultrasonic immersion testing — replacing dangerous physical NDT training with a safe, scalable virtual environment achieving 90+ FPS on standalone headsets."
+impact: "Eliminated material waste and safety risk in NDT training. Enabled scalable deployment across aerospace, manufacturing, and defense sectors without expensive physical test rigs."
+---
+
+## Overview
+
+Developed a comprehensive VR simulation replicating ultrasonic immersion testing (UTI) — a critical non-destructive testing technique used across aerospace, manufacturing, and defense industries. The simulation enables trainees to practice probe alignment, data acquisition, and defect detection without expensive machinery or real test materials, dramatically improving training safety and scalability.
+
+## The Challenge
+
+Traditional NDT training requires expensive physical equipment, consumable test materials, and creates real safety hazards. Training centers struggled to provide hands-on experience with real ultrasonic equipment due to cost constraints and scheduling limitations. The challenge was to create a virtual environment that accurately replicated the tactile feel of probe manipulation while also simulating the complex data visualization systems used in real inspection workflows.
+
+## Technical Approach
+
+Built the simulation from the ground up using Unity 3D, with custom physics simulation for probe movement and collision handling. Integrated real 12-bit 3D array data from actual inspection scans to generate authentic A-scan, B-scan, and C-scan visualizations using a custom waveform rendering algorithm. The architecture supports both standalone VR headsets and PC VR configurations.
+
+## Key Implementations
+
+- **Probe Mechanics & Collision Handling:** Implemented real-time 3D probe movement based on physical constraints, with simulated crash scenarios that trigger faults and corrective feedback workflows mimicking real-world safety procedures.
+
+- **UI & Software Screen Simulation:** Recreated proprietary ultrasonic software interfaces in VR — including control panels, forms, scan triggers, and parameter tuning — for realistic hands-on training without software licensing costs.
+
+- **Real Data Integration & Graph Generation:** Parsed client-provided 12-bit 3D integer array data to generate real-time A-scan, B-scan, and C-scan visualizations using a custom waveform rendering algorithm.
+
+- **Training Logic & Crash Scenarios:** Developed step-based learning modules with success/failure conditions and real-time feedback for probe alignment accuracy, scan timing, and flaw detection.
+
+- **Performance Optimization:** Achieved and maintained 90+ FPS performance on both standalone and PC VR systems, validated across multiple headset configurations.
+
+## Outcome
+
+The simulation eliminated material waste and safety risks in NDT training programs. Training centers can now scale their programs without expensive physical test rigs, enabling deployment across multiple facilities simultaneously. The realistic software interface simulation reduced the learning curve for operators transitioning to real equipment.
