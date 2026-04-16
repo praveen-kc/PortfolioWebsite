@@ -89,6 +89,7 @@ export function ContactForm() {
             </p>
             <Button
               variant="ghost"
+              size="lg"
               onClick={() => setStatus("idle")}
             >
               Send another message

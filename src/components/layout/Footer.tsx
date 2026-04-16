@@ -3,7 +3,6 @@
 import { useMemo } from "react";
 import NextLink from "next/link";
 import { Link as LinkIcon, AtSign, Download } from "lucide-react";
-import { AvailabilityBadge } from "@/components/ui/AvailabilityBadge";
 import { Button } from "@/components/ui/Button";
 import { GithubIcon } from "@/components/ui/GithubIcon";
 import { trackResumeDownload } from "@/lib/analytics";
@@ -45,7 +44,6 @@ export function Footer() {
             <p className="text-sm text-t2 leading-relaxed">
               Lead Unity Developer · XR Specialist · Creative Technologist
             </p>
-            <AvailabilityBadge />
           </div>
 
           <div className="space-y-4">

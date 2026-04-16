@@ -76,7 +76,7 @@ export function Hero() {
             </span>
             <span className="inline-block mt-2">
               <GradientText>
-                {"immersive XR".split("").map((char, charIndex) => (
+                {" immersive XR".split("").map((char, charIndex) => (
                   <motion.span
                     key={charIndex}
                     initial={{ opacity: 0, y: 20 }}
@@ -91,7 +91,7 @@ export function Hero() {
             </span>
           </h1>
 
-          <div className="h-7 overflow-hidden mb-6">
+          <div className="h-7 overflow-hidden" style={{ marginBottom: "32px" }}>
             <AnimatePresence mode="wait">
               <motion.p
                 key={currentRole}
@@ -99,7 +99,7 @@ export function Hero() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -20 }}
                 transition={{ duration: 0.5 }}
-                className="text-[20px] font-[family-name:var(--font-body)] font-normal text-t2"
+                className="text-[20px] font-[family-name:var(--font-body)] font-normal text-t2 text-center"
               >
                 {ROLES[currentRole]}
               </motion.p>
@@ -110,18 +110,18 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.8 }}
-            className="text-base md:text-lg text-t2 mb-8 max-w-[600px] mx-auto leading-relaxed"
+            className="text-base md:text-lg text-t2 mx-auto text-center leading-relaxed"
+            style={{ paddingBottom: "24px" }}
           >
-            12+ years delivering enterprise VR training simulations, WebGL interactive
-            experiences, and cross-platform XR solutions for aerospace, manufacturing,
-            and retail.
+            12+ years delivering enterprise VR training simulations, WebGL interactive experiences, and cross-platform XR solutions for aerospace, manufacturing, and retail.
           </motion.p>
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 1 }}
-            className="flex flex-wrap justify-center gap-4"
+            className="flex flex-wrap justify-center gap-8"
+            style={{ paddingTop: "24px" }}
           >
             <Button variant="primary" size="lg" asChild>
               <Link href="/work">View My Work</Link>
@@ -160,16 +160,9 @@ export function Hero() {
               </div>
               <div className="w-px h-12 bg-border hidden md:block" />
               <div className="text-center">
-                <Counter to={5} className="block" />
+                <Counter to={3} className="block" />
                 <span className="text-[11px] font-[family-name:var(--font-mono)] text-t3 uppercase tracking-wider">
                   Companies Served
-                </span>
-              </div>
-              <div className="w-px h-12 bg-border hidden md:block" />
-              <div className="text-center">
-                <Counter to={4} className="block" />
-                <span className="text-[11px] font-[family-name:var(--font-mono)] text-t3 uppercase tracking-wider">
-                  XR Platforms
                 </span>
               </div>
             </div>

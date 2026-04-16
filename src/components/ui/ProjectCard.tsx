@@ -26,8 +26,8 @@ const PLACEHOLDER_BLUR =
 export function ProjectCard({ project }: ProjectCardProps) {
   return (
     <Link href={project.url} className="block w-full h-full">
-      <CardHover className="h-full flex flex-col group cursor-pointer">
-        <div className="relative aspect-video overflow-hidden bg-surface flex-shrink-0">
+      <CardHover className="h-full flex flex-col group cursor-pointer rounded-2xl">
+        <div className="relative aspect-[16/10] overflow-hidden bg-surface flex-shrink-0">
           <Image
             src={project.thumbnail}
             alt={project.title}
@@ -43,27 +43,22 @@ export function ProjectCard({ project }: ProjectCardProps) {
             </p>
           </div>
         </div>
-        <div className="p-5 flex-1 flex flex-col">
-          <div className="mb-3">
-            <span className="text-[11px] font-[family-name:var(--font-mono)] text-xr-green tracking-wide">
-              {project.company}
-            </span>
-          </div>
-          <h3 className="font-[family-name:var(--font-display)] font-semibold text-t1 text-lg mb-1 group-hover:text-primary transition-colors">
+        <div className="flex-1 flex flex-col" style={{ padding: "24px" }}>
+          <h3 className="font-[family-name:var(--font-display)] font-semibold text-t1 text-lg mb-2 group-hover:text-primary transition-colors">
             {project.title}
           </h3>
-          <div className="flex items-center gap-2 mb-4">
+          <div className="flex items-center gap-2 mb-3">
             <span className="text-xs font-[family-name:var(--font-mono)] text-t3">
               {project.year}
             </span>
+            <span className="text-t3">•</span>
+            <Badge variant={project.category as "VR" | "WebGL" | "Game" | "Mobile" | "Research"}>
+              {project.category}
+            </Badge>
           </div>
-          <div className="mt-auto">
-            <div className="mb-3">
-              <Badge variant={project.category as "VR" | "WebGL" | "Game" | "Mobile" | "Research"}>
-                {project.category}
-              </Badge>
-            </div>
-            <TechPills tags={project.tags.slice(0, 3)} className="opacity-60 group-hover:opacity-100 transition-opacity" />
+          <p className="text-sm text-t2 mb-3 line-clamp-2">{project.summary}</p>
+          <div className="text-xs text-t3 font-[family-name:var(--font-mono)]">
+            {project.company}
           </div>
         </div>
       </CardHover>

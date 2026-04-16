@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://praveenkc.com"),
   title: {
     default: "Praveen K C — Lead Unity Developer & XR Specialist",
-    template: "%s | Praveen K C",
+    template: "%s | Praveen K C — Lead Unity Developer & XR Specialist",
   },
   description:
     "12+ years building enterprise VR training simulations, WebGL interactive experiences, and cross-platform XR solutions. Lead Unity Developer & XR Specialist.",

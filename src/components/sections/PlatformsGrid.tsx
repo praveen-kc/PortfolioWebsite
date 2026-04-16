@@ -30,7 +30,7 @@ export function PlatformsGrid() {
         <SectionLabel className="mb-4">Shipped On</SectionLabel>
       </motion.div>
 
-      <div className="flex flex-wrap justify-center gap-3 md:gap-4">
+      <div className="flex flex-wrap justify-center gap-3 md:gap-4" style={{ marginTop: "32px" }}>
         {PLATFORMS.map((platform, index) => (
           <motion.div
             key={platform}
@@ -41,10 +41,10 @@ export function PlatformsGrid() {
           >
             <div
               className={cn(
-                "bg-elevated border border-border rounded-lg",
-                "h-16 min-w-[100px] px-4",
+                "bg-elevated border border-border rounded-xl",
+                "h-16 min-w-[120px] px-6",
                 "flex items-center justify-center",
-                "font-[family-name:var(--font-mono)] text-xs text-t2",
+                "font-[family-name:var(--font-mono)] text-sm text-t2",
                 "transition-all duration-200",
                 "hover:border-primary/30 hover:bg-surface"
               )}

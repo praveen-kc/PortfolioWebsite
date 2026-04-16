@@ -29,30 +29,61 @@ export function Counter({
   );
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries[0].isIntersecting && !hasAnimated) {
-          setHasAnimated(true);
-          animate(motionValue, to, {
-            duration: prefersReducedMotion ? 0 : duration,
-            onComplete: () => {
-              if (!prefersReducedMotion) {
-                setShowGlow(true);
-                setTimeout(() => setShowGlow(false), 800);
-              }
-            }
-          });
-        }
-      },
-      { threshold: 0.1 }
-    );
-
-    if (ref.current) {
-      observer.observe(ref.current);
+    if (prefersReducedMotion) {
+      motionValue.set(to);
+      return;
     }
 
+    const triggerAnimation = () => {
+      if (!hasAnimated) {
+        setHasAnimated(true);
+        animate(motionValue, to, {
+          duration,
+          onComplete: () => {
+            setShowGlow(true);
+            setTimeout(() => setShowGlow(false), 800);
+          }
+        });
+      }
+    };
+
+    const element = ref.current;
+    if (!element) return;
+
+    if (element.getBoundingClientRect().top < window.innerHeight && element.getBoundingClientRect().bottom > 0) {
+      triggerAnimation();
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          triggerAnimation();
+          observer.disconnect();
+        }
+      },
+      { threshold: 0, rootMargin: "100px" }
+    );
+
+    observer.observe(element);
     return () => observer.disconnect();
   }, [to, duration, motionValue, hasAnimated, prefersReducedMotion]);
+
+  useEffect(() => {
+    if (!prefersReducedMotion && !hasAnimated) {
+      const timer = setTimeout(() => {
+        setHasAnimated(true);
+        animate(motionValue, to, {
+          duration,
+          onComplete: () => {
+            setShowGlow(true);
+            setTimeout(() => setShowGlow(false), 800);
+          }
+        });
+      }, 1000);
+      return () => clearTimeout(timer);
+    }
+  }, [prefersReducedMotion, hasAnimated, motionValue, to, duration]);
 
   return (
     <span
@@ -69,7 +100,7 @@ export function Counter({
           showGlow
             ? {
                 scale: [1, 1.08, 1],
-                color: ["#f0ede6", "#00e5a0", "#f0ede6"],
+                color: ["var(--text-1)", "var(--xr-green)", "var(--text-1)"],
               }
             : { scale: 1 }
         }

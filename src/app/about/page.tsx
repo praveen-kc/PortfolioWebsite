@@ -122,25 +122,38 @@ export default function About() {
             className="mb-48"
           >
             <Heading2 className="mb-12">Education</Heading2>
-            <Card className="p-6 md:p-8">
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-lg bg-elevated flex items-center justify-center flex-shrink-0">
-                  <GraduationCap className="w-6 h-6 text-xr-green" />
+            <div className="space-y-6">
+              <Card className="p-6 md:p-8">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-lg bg-elevated flex items-center justify-center flex-shrink-0">
+                    <GraduationCap className="w-6 h-6 text-xr-green" />
+                  </div>
+                  <div>
+                    <h3 className="font-[family-name:var(--font-display)] font-semibold text-t1 text-lg mb-2">
+                      M.Sc. Computer Games Technology
+                    </h3>
+                    <p className="text-sm text-t3 font-[family-name:var(--font-mono)]">
+                      University of Abertay Dundee &bull; Sept 2011 – Feb 2013 &bull; Dundee, UK
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="font-[family-name:var(--font-display)] font-semibold text-t1 text-lg mb-2">
-                    M.Sc. Computer Games Technology
-                  </h3>
-                  <p className="text-t2 mb-3">
-                    Master&apos;s thesis exploring immersion differences between FPS and TPS
-                    perspectives in video games.
-                  </p>
-                  <p className="text-sm text-t3 font-[family-name:var(--font-mono)]">
-                    Thesis: &quot;Beyond Guns — Comparative Immersion Study&quot;
-                  </p>
+              </Card>
+              <Card className="p-6 md:p-8">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-lg bg-elevated flex items-center justify-center flex-shrink-0">
+                    <GraduationCap className="w-6 h-6 text-xr-green" />
+                  </div>
+                  <div>
+                    <h3 className="font-[family-name:var(--font-display)] font-semibold text-t1 text-lg mb-2">
+                      B.Tech Computer Science Engineering
+                    </h3>
+                    <p className="text-sm text-t3 font-[family-name:var(--font-mono)]">
+                      SRM University &bull; Aug 2006 – May 2010 &bull; Chennai, India
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </Card>
+              </Card>
+            </div>
           </motion.div>
 
           <motion.div

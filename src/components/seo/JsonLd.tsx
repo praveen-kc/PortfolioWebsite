@@ -7,7 +7,10 @@ export function PersonJsonLd() {
     jobTitle: 'Lead Unity Developer & XR Specialist',
     knowsAbout: ['Unity 3D', 'Virtual Reality', 'Augmented Reality', 'WebGL', 'C#', 'Three.js', 'Game Development', 'XR Training Simulation'],
     sameAs: ['https://www.linkedin.com/in/praveenkc', 'https://github.com/praveenkc'],
-    alumniOf: { '@type': 'CollegeOrUniversity', name: 'University', description: 'M.Sc. Computer Games Technology' },
+    alumniOf: [
+      { '@type': 'CollegeOrUniversity', name: 'University of Abertay Dundee', description: 'M.Sc. Computer Games Technology' },
+      { '@type': 'CollegeOrUniversity', name: 'SRM University', description: 'B.Tech Computer Science Engineering' },
+    ],
   }
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }} />
 }

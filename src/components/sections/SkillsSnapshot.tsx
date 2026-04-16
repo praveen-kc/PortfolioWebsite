@@ -40,7 +40,7 @@ export function SkillsSnapshot() {
         <SectionLabel className="mb-4">Expertise</SectionLabel>
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8" style={{ marginTop: "32px" }}>
         {SKILL_DOMAINS.map((domain, index) => (
           <motion.div
             key={domain.name}
@@ -51,12 +51,12 @@ export function SkillsSnapshot() {
           >
             <div
               className={cn(
-                "bg-surface border border-border rounded-xl p-6",
+                "bg-surface border border-border rounded-2xl p-6",
                 "transition-all duration-300",
                 "hover:border-xr-green/50 hover:shadow-[0_0_24px_rgba(0,229,160,0.12)]"
               )}
             >
-              <div className="flex items-center gap-3 mb-4">
+              <div className="flex items-center gap-3 mb-6">
                 <div className="w-10 h-10 rounded-lg bg-elevated flex items-center justify-center">
                   <domain.icon
                     className={cn(
