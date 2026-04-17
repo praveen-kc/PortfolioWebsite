@@ -42,6 +42,8 @@
 
   --max-width-container: 1200px;
 
+  --spacing-section-gap: var(--section-gap);
+
   --animate-fade-up: fadeUp 0.6s ease forwards;
   --animate-fade-in: fadeIn 0.4s ease forwards;
   --animate-role-cycle: roleCycle 0.5s ease;
@@ -61,7 +63,59 @@
   --text-1:    #f0ede6;
   --text-2:    #abadb8;
   --text-3:    #6a6878;
+
+  /* Section rhythm */
+  --section-gap:        clamp(64px, 8vw, 96px);
+  --section-gap-inner:  clamp(24px, 4vw, 32px);
+
+  /* Component spacing */
+  --card-padding:       24px;
+  --card-gap:           24px;
+
+  /* Button */
+  --btn-height-sm:      40px;
+  --btn-height-md:      48px;
+  --btn-height-lg:      52px;
+  --btn-px-sm:          16px;
+  --btn-px-md:          24px;
+  --btn-px-lg:          32px;
+  --btn-radius:         8px;
+
+  /* Typography rhythm */
+  --text-label-size:    11px;
+  --text-label-spacing: 0.2em;
+  --leading-tight:      1.1;
+  --leading-heading:    1.15;
+  --leading-body:       1.7;
+  --leading-relaxed:    1.8;
+
+  /* Section label → heading gap */
+  --label-to-heading:   12px;
+  /* Heading → subheading/body gap */
+  --heading-to-body:    16px;
+  /* Body → CTA button gap */
+  --body-to-cta:        32px;
+
+  /* Section margin top (between sections) */
+  --section-margin-top: 30px;
+
+  /* Card inner padding */
+  --card-inner-padding: 20px 24px;
+
+  /* Tech pill padding */
+  --tech-pill-padding: 5px 9px;
+  --tech-pill-vertical: 5px;
+  --tech-pill-horizontal: 9px;
+
+  /* CTA section padding */
+  --cta-padding-y: 40px;
+  --cta-text-gap: 20px;
+  --cta-btn-gap: 16px;
 }
+
+.section-label   { margin-bottom: var(--label-to-heading); }
+.section-heading { margin-bottom: var(--heading-to-body); }
+.section-body    { margin-bottom: var(--body-to-cta); }
 
 .light {
   --void:      #f8f7f4;

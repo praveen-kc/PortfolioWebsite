@@ -15,9 +15,9 @@ const buttonVariants = cva(
         icon: "bg-transparent border-none text-t1 hover:bg-elevated rounded-lg",
       },
       size: {
-        sm: "px-4 py-2.5 text-sm rounded-[8px] h-[40px]",
-        md: "px-6 py-3 text-base rounded-[8px] h-[48px]",
-        lg: "px-8 py-3 text-[15px] font-[500] rounded-[8px] h-[48px] leading-[1.5]",
+        sm:  "px-[var(--btn-px-sm)]  h-[var(--btn-height-sm)] text-sm   rounded-[var(--btn-radius)]",
+        md:  "px-[var(--btn-px-md)]  h-[var(--btn-height-md)] text-base  rounded-[var(--btn-radius)]",
+        lg:  "px-[var(--btn-px-lg)]  h-[var(--btn-height-lg)] text-[15px] font-medium rounded-[var(--btn-radius)] leading-[1.5]",
       },
     },
     defaultVariants: {

@@ -91,7 +91,7 @@ export function Hero() {
             </span>
           </h1>
 
-          <div className="h-7 overflow-hidden" style={{ marginTop: "8px" }}>
+          <div className="h-7 overflow-hidden mt-[--label-to-heading]">
             <AnimatePresence mode="wait">
               <motion.p
                 key={currentRole}
@@ -110,7 +110,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.8 }}
-            className="text-base md:text-lg text-t2 mx-auto text-center leading-relaxed mb-0" style={{ marginTop: "16px" }}
+            className="text-base md:text-lg text-t2 mx-auto text-center leading-relaxed mb-0 mt-[--heading-to-body]"
           >
             12+ years delivering enterprise VR training simulations, WebGL interactive experiences, and cross-platform XR solutions for aerospace, manufacturing, and retail.
           </motion.p>
@@ -119,13 +119,12 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 1 }}
-            className="flex flex-wrap justify-center"
-            style={{ paddingTop: "24px", gap: "16px" }}
+            className="flex flex-wrap justify-center gap-4 pt-[--body-to-cta]"
           >
-            <Button variant="primary" size="lg" asChild className="whitespace-nowrap" style={{ paddingLeft: "32px", paddingRight: "32px" }}>
+            <Button variant="primary" size="lg" asChild className="whitespace-nowrap">
               <Link href="/work">View My Work</Link>
             </Button>
-            <Button variant="ghost" size="lg" asChild style={{ paddingLeft: "32px", paddingRight: "32px" }}>
+            <Button variant="ghost" size="lg" asChild>
               <a href="/docs/PraveenKC-CV.pdf" download onClick={trackResumeDownload}>
                 Download Resume
               </a>

@@ -12,10 +12,12 @@ export function HomeContent() {
   return (
     <PageTransition>
       <Hero />
-      <FeaturedProjects />
-      <SkillsSnapshot />
-      <PlatformsGrid />
-      <CareerTeaser />
+      <div className="flex flex-col gap-[--section-gap]">
+        <FeaturedProjects />
+        <SkillsSnapshot />
+        <PlatformsGrid />
+        <CareerTeaser />
+      </div>
       <CTAStrip />
     </PageTransition>
   );

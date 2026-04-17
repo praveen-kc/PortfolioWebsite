@@ -43,7 +43,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
             </p>
           </div>
         </div>
-        <div className="flex-1 flex flex-col" style={{ padding: "24px" }}>
+        <div className="flex-1 flex flex-col p-[--card-padding]">
           <h3 className="font-[family-name:var(--font-display)] font-semibold text-t1 text-lg mb-2 group-hover:text-primary transition-colors">
             {project.title}
           </h3>

@@ -49,7 +49,7 @@ export function ProjectGrid({ projects, categories }: ProjectGridProps) {
           transition={{ duration: 0.2 }}
         >
           {professionalProjects.length > 0 && (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch mb-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[--card-gap] items-stretch mb-16">
               {professionalProjects.map((project, index) => (
                 <motion.div
                   key={project.slug}
@@ -74,7 +74,7 @@ export function ProjectGrid({ projects, categories }: ProjectGridProps) {
                   <div className="flex-1 h-px bg-border" />
                 </div>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[--card-gap] items-stretch">
                 {academicProjects.map((project, index) => (
                   <motion.div
                     key={project.slug}

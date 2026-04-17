@@ -128,7 +128,7 @@ function MobileDrawer({ isOpen, onClose }: { isOpen: boolean; onClose: () => voi
                 transition={{ delay: navLinks.length * 0.1, duration: 0.3 }}
                 className="mt-8"
               >
-                <Button variant="primary" size="lg" asChild style={{ paddingLeft: "32px", paddingRight: "32px" }}>
+                <Button variant="primary" size="lg" asChild>
                   <Link href="/contact" onClick={onClose}>
                     Hire Me
                   </Link>
@@ -181,7 +181,7 @@ export function Navbar() {
 
           <div className="flex items-center gap-3">
             <ThemeToggle />
-            <Button variant="primary" size="sm" className="hidden md:inline-flex" asChild style={{ paddingLeft: "16px", paddingRight: "16px" }}>
+            <Button variant="primary" size="sm" className="hidden md:inline-flex" asChild>
               <Link href="/contact">Hire Me</Link>
             </Button>
             <button

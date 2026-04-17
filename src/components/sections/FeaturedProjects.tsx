@@ -1,44 +1,45 @@
 "use client";
 
-import Link from "next/link";
-import Image from "next/image";
 import { motion, useReducedMotion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
+import { ProjectCard } from "@/components/ui/ProjectCard";
 import { SectionLabel } from "@/components/ui/SectionLabel";
 import { Heading2 } from "@/components/ui/Typography";
-import { CardHover } from "@/components/ui/Card";
-import { Badge } from "@/components/ui/Badge";
 
 const FEATURED_PROJECTS = [
   {
-    id: "tooling-u-virtual-labs",
+    slug: "tooling-u-virtual-labs",
     title: "Tooling U Virtual Labs",
     summary: "Simulation-based training platform enabling learners to practice manufacturing procedures and safety protocols in realistic virtual environments",
-    category: "VR" as const,
+    category: "VR",
     company: "Sify Technologies",
-    year: "2021",
-    image: "/images/projects/tooling-u-cover.webp",
-    link: "/work#tooling-u-virtual-labs",
+    year: 2021,
+    thumbnail: "/images/projects/tooling-u-cover.webp",
+    tags: [],
+    url: "/work#tooling-u-virtual-labs",
   },
   {
-    id: "uti-vr-simulation",
+    slug: "uti-vr-simulation",
     title: "UTI VR Simulation",
     summary: "High-fidelity VR simulation for ultrasonic immersion testing — replacing dangerous physical NDT training with a safe, scalable virtual environment achieving 90+ FPS on standalone headsets",
-    category: "VR" as const,
+    category: "VR",
     company: "Sify Technologies",
-    year: "2022",
-    image: "/images/projects/uti-cover.webp",
-    link: "/work#uti-vr-simulation",
+    year: 2022,
+    thumbnail: "/images/projects/uti-cover.webp",
+    tags: [],
+    url: "/work#uti-vr-simulation",
   },
   {
-    id: "msd-allergy-race",
+    slug: "msd-allergy-race",
     title: "MSD Allergy Race",
     summary: "Kinect-controlled racing game for MSD corporate event — powered by real-time sales data that dynamically influenced player car behavior",
-    category: "Game" as const,
+    category: "Game",
     company: "ThinkHi",
-    year: "2017",
-    image: "/images/projects/msd-allergy-race-cover.webp",
-    link: "/work#msd-allergy-race",
+    year: 2017,
+    thumbnail: "/images/projects/msd-allergy-race-cover.webp",
+    tags: [],
+    url: "/work#msd-allergy-race",
   },
 ];
 
@@ -46,21 +47,21 @@ export function FeaturedProjects() {
   const prefersReducedMotion = useReducedMotion();
 
   return (
-    <section className="container-page py-16 md:py-24" style={{ marginTop: "30px" }}>
+    <section className="container-page py-16 md:py-24">
       <motion.div
         initial={{ opacity: 0, y: 24 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: prefersReducedMotion ? 0 : 0.6 }}
-        className="mb-8"
       >
-        <SectionLabel className="mb-2">Featured Projects</SectionLabel>
+        <SectionLabel className="section-label">Featured Projects</SectionLabel>
+        <Heading2 className="mt-[--label-to-heading]">Work I&apos;m proud of</Heading2>
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch mb-8" style={{ marginTop: "24px" }}>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[--card-gap] items-stretch mb-8 mb-4">
         {FEATURED_PROJECTS.map((project, index) => (
           <motion.div
-            key={project.id}
+            key={project.slug}
             initial={{ opacity: 0, y: 24 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-50px" }}
@@ -70,38 +71,7 @@ export function FeaturedProjects() {
             }}
             className="flex"
           >
-            <Link href={project.link} className="block w-full">
-              <CardHover className="h-full flex flex-col group cursor-pointer rounded-2xl">
-                <div className="relative aspect-[16/10] overflow-hidden bg-surface flex-shrink-0">
-                  <Image
-                    src={project.image}
-                    alt={project.title}
-                    fill
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    placeholder="blur"
-                    blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-surface/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                </div>
-                <div className="flex-1 flex flex-col" style={{ padding: "24px" }}>
-                  <h3 className="font-[family-name:var(--font-display)] font-semibold text-t1 text-lg mb-2 group-hover:text-primary transition-colors">
-                    {project.title}
-                  </h3>
-                  <div className="flex items-center gap-2 mb-3">
-                    <span className="text-xs font-[family-name:var(--font-mono)] text-t3">
-                      {project.year}
-                    </span>
-                    <span className="text-t3">•</span>
-                    <Badge variant={project.category}>{project.category}</Badge>
-                  </div>
-                  <p className="text-sm text-t2 mb-3 line-clamp-2">{project.summary}</p>
-                  <div className="text-xs text-t3 font-[family-name:var(--font-mono)]">
-                    {project.company}
-                  </div>
-                </div>
-              </CardHover>
-            </Link>
+            <ProjectCard project={project} />
           </motion.div>
         ))}
       </div>
@@ -111,8 +81,7 @@ export function FeaturedProjects() {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5, delay: 0.3 }}
-        className="text-center py-4"
-        style={{ marginTop: "40px" }}
+        className="text-center py-4 mt-[--section-gap]"
       >
         <Link
           href="/work"

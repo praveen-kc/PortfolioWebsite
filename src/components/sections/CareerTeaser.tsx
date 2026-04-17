@@ -4,6 +4,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { SectionLabel } from "@/components/ui/SectionLabel";
+import { Heading2 } from "@/components/ui/Typography";
 
 const CAREER_STEPS = [
   {
@@ -25,18 +26,18 @@ const CAREER_STEPS = [
 
 export function CareerTeaser() {
   return (
-    <section className="container-page py-16 md:py-24" style={{ marginTop: "30px" }}>
+    <section className="container-page py-16 md:py-24">
       <motion.div
         initial={{ opacity: 0, y: 24 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.6 }}
-        className="mb-8"
       >
-        <SectionLabel className="mb-2">Experience</SectionLabel>
+        <SectionLabel className="section-label">Experience</SectionLabel>
+        <Heading2 className="mt-[--label-to-heading]">My journey</Heading2>
       </motion.div>
 
-      <div className="relative" style={{ marginTop: "24px" }}>
+      <div className="relative mb-4">
         <div className="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-4 md:gap-8">
           {CAREER_STEPS.map((step, index) => (
             <motion.div

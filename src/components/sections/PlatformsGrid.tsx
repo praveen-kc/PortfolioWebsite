@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { SectionLabel } from "@/components/ui/SectionLabel";
+import { Heading2 } from "@/components/ui/Typography";
 
 const PLATFORMS = [
   "Meta Quest",
@@ -19,18 +20,18 @@ const PLATFORMS = [
 
 export function PlatformsGrid() {
   return (
-    <section className="container-page py-16 md:py-24" style={{ marginTop: "30px" }}>
+    <section className="container-page py-16 md:py-24">
       <motion.div
         initial={{ opacity: 0, y: 24 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.6 }}
-        className="mb-8"
       >
-        <SectionLabel className="mb-2">Shipped On</SectionLabel>
+        <SectionLabel className="section-label">Shipped On</SectionLabel>
+        <Heading2 className="mt-[--label-to-heading]">Platforms I&apos;ve delivered on</Heading2>
       </motion.div>
 
-      <div className="flex flex-wrap justify-center gap-3 md:gap-4" style={{ marginTop: "24px" }}>
+      <div className="flex flex-wrap justify-center gap-3 md:gap-4 mb-4">
         {PLATFORMS.map((platform, index) => (
           <motion.div
             key={platform}
