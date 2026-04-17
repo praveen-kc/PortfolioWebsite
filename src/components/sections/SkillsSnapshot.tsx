@@ -30,7 +30,7 @@ const SKILL_DOMAINS = [
 
 export function SkillsSnapshot() {
   return (
-    <section className="container-page py-16 md:py-24">
+    <section className="container-page py-[--section-padding-y]">
       <motion.div
         initial={{ opacity: 0, y: 24 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -38,10 +38,10 @@ export function SkillsSnapshot() {
         transition={{ duration: 0.6 }}
       >
         <SectionLabel className="section-label">Expertise</SectionLabel>
-        <Heading2 className="mt-[--label-to-heading]">What I build with</Heading2>
+        <Heading2>What I build with</Heading2>
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-[--card-gap] mt-[--heading-to-body]">
         {SKILL_DOMAINS.map((domain, index) => (
           <motion.div
             key={domain.name}

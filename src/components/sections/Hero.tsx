@@ -119,7 +119,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 1 }}
-            className="flex flex-wrap justify-center gap-4 pt-[--body-to-cta]"
+            className="flex flex-wrap justify-center gap-[--cta-btn-gap] pt-[--body-to-cta]"
           >
             <Button variant="primary" size="lg" asChild className="whitespace-nowrap">
               <Link href="/work">View My Work</Link>

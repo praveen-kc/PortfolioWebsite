@@ -20,7 +20,7 @@ const PLATFORMS = [
 
 export function PlatformsGrid() {
   return (
-    <section className="container-page py-16 md:py-24">
+    <section className="container-page py-[--section-padding-y]">
       <motion.div
         initial={{ opacity: 0, y: 24 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -28,10 +28,10 @@ export function PlatformsGrid() {
         transition={{ duration: 0.6 }}
       >
         <SectionLabel className="section-label">Shipped On</SectionLabel>
-        <Heading2 className="mt-[--label-to-heading]">Platforms I&apos;ve delivered on</Heading2>
+        <Heading2>Platforms I&apos;ve delivered on</Heading2>
       </motion.div>
 
-      <div className="flex flex-wrap justify-center gap-3 md:gap-4 mb-4">
+      <div className="flex flex-wrap justify-center gap-3 md:gap-4 mt-[--heading-to-body] mb-4">
         {PLATFORMS.map((platform, index) => (
           <motion.div
             key={platform}

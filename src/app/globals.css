@@ -67,6 +67,8 @@
   /* Section rhythm */
   --section-gap:        clamp(64px, 8vw, 96px);
   --section-gap-inner:  clamp(24px, 4vw, 32px);
+  --section-padding-y: clamp(48px, 6vw, 64px);
+  --section-padding-y-sm: clamp(32px, 4vw, 48px);
 
   /* Component spacing */
   --card-padding:       24px;
@@ -95,21 +97,15 @@
   --heading-to-body:    16px;
   /* Body → CTA button gap */
   --body-to-cta:        32px;
-
-  /* Section margin top (between sections) */
-  --section-margin-top: 30px;
-
-  /* Card inner padding */
-  --card-inner-padding: 20px 24px;
+  /* Content to link/CTA spacing */
+  --content-to-link:    40px;
 
   /* Tech pill padding */
   --tech-pill-padding: 5px 9px;
   --tech-pill-vertical: 5px;
   --tech-pill-horizontal: 9px;
 
-  /* CTA section padding */
-  --cta-padding-y: 40px;
-  --cta-text-gap: 20px;
+  /* CTA button gap */
   --cta-btn-gap: 16px;
 }
 
